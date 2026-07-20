@@ -2,9 +2,11 @@ services:
   - type: web
     name: chat-with-pdf
     env: python
+    region: oregon
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: GOOGLE_API_KEY
         value: put_your_google_api_key_here
+    healthCheckPath: /health
