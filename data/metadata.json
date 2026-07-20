@@ -1,0 +1,950 @@
+[
+  {
+    "text": "Results in Nonlinear Analysis 8 (2025) No. 2, 337\u2013347 \nhttps://doi.org/10.31838/rna/2025.08.02.026 \nAvailable online at www.nonlinear-analysis.com\nReceived Date: 07 June 2025; Accepted Date: 16 July 2025; Publication Date: 24 August 2025\nAdvanced statistical methods for credit risk scoring: A \nbayesian and non-parametric approach\nAmmar Kuti Nasser \nCollege of Basic Education , Mustansiriyah University.\nAbstract\nFinance-related decisions heavily depend on credit risk evaluation processes because these determine \nboth lending practices and operational risk management methods of institutions. Logistic regres -\nsion functions as the initial process for statistical models to conduct credit risk evaluation yet stan -",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 1,
+    "chunk_id": "ea0185a5d730a801"
+  },
+  {
+    "text": "sion functions as the initial process for statistical models to conduct credit risk evaluation yet stan -\ndard approaches face difficulties when dealing with complex patterns together with uncertainties. \nThe study implements an advanced framework which merges Bayesian statistical capabilities with \nnon-parametric methods with AI modeling techniques to boost credit risk evaluation accuracy. Stan-\ndard logistic regression with Lasso/Ridge penalty functions as the first method that leads to Bayesian \nlogistic regression for enhanced estimation stability. The study utilizes kernel density estimation for \nnon-parametric analysis to model credit risk allocation and employs quantile regression to determine",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 1,
+    "chunk_id": "694b12ca133939d7"
+  },
+  {
+    "text": "non-parametric analysis to model credit risk allocation and employs quantile regression to determine \nhigh-risk borrowers independently from average effect perceptions. The paper explores the perfor -\nmance of XGBoost AI classifiers together with Support Vector Machines (SVM) as well as Bayesian \nlogistic regression and traditional Support Vector Machines (SVM) and XGBoost to analyze predictive \naccuracy and robustness potential. The proposed risk segmentation system combines quantile regres-\nsion methods with Bayesian logistic regression for generating better decisions by using AI-enabled \nprocesses. The presented method achieves superior results on actual credit risk datasets through \nimproved outcomes along with uncertainty reduction capabilities while providing better interpreta -",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 1,
+    "chunk_id": "518eb5a246675f59"
+  },
+  {
+    "text": "improved outcomes along with uncertainty reduction capabilities while providing better interpreta -\ntive insight. This statistically advanced framework enables researchers to boost traditional credit risk \nmodeling techniques because it demonstrates superior performance outcomes.\nMathematics Subject Classification (2010): 62F15, 62G05, 62J12\nKeywords: Bayesian Inference, Credit Risk Scoring, Machine Learning, Non-Parametric Methods, \nQuantile Regression.\nEmail address: dr.ammar168.edbs@uomustansiriyah.edu.iq (Ammar Kuti Nasser)",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 1,
+    "chunk_id": "f676fdbab5442c8d"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 338\n1. Introduction\nCredit risk assessment acts as a decisive financial instrument because it helps predict loan default \nevents and control market risks [8]. Logistic regression functions as a popular choice for assessing \ncredit risk because it offers efficiency and interpretability in its results. The models face several \nchallenges when dealing with high-dimensional datasets while managing non-linear relationships \nbecause of prediction uncertainty [1]. Scientists have studied robust and accurate risk classification \nmethods by using Bayesian methods along with non-parametric approaches because of traditional \nmodels' weaknesses [5, 6].",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "cfe18dd0ba8488df"
+  },
+  {
+    "text": "models' weaknesses [5, 6].\nBayesian inference proves to be a robust framework for credit risk modeling because it incorpo -\nrates prior knowledge so models become more stable and easier to interpret [7]. A typical applica -\ntion of Bayesian logistic regression involves adding prior distributions to model parameters which \napplies well to analyze sparse or noisy data according to Hounnou (2024) [15]. KDE and Quantile \nRegression serve as non-parametric methods for data analysis which researchers employ instead of \nparametric models in order to eliminate restrictions on data distribution types [3, 23]. These meth -\nods simplify complicated credit risk patterns by helping to divide risks correctly. Recent studies",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "11151f48c181657a"
+  },
+  {
+    "text": "ods simplify complicated credit risk patterns by helping to divide risks correctly. Recent studies \nshow that Support Vector Machines (SVM) with ensemble learning models such as XGBoost have \ngained popularity for credit risk assessment because they excel at identifying and analyzing non -\nlinear predictor patterns as stated by Dong, Liu, & Tham (2024) [10] and Gunnarsson et al. (2021) \n[11]. The predictive quality of such models faces difficulties because their interpretation remains \ncomplicated and that results in regulatory compliance problems [13]. An approach that combines \npredictions from AI classifiers with interpretability from advanced statistical approaches enables \nusers to benefit from the most important features in their model. The proposed research adopts a",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "c2d32ff426a134fc"
+  },
+  {
+    "text": "users to benefit from the most important features in their model. The proposed research adopts a \nnew framework that unites Bayesian logistic regression with non-parametric KDE and quantile \nregression and AI-based classifiers specifically for credit risk scoring applications. Real-world credit \nrisk data analysis determines how effectively these methods optimize both performance results \nand uncertainty management capabilities and interpretability qualities The leading findings of this \nstudy encompass:\n 1. As well as addressing traditional statistical analysis shortcomings this research develops a Bayesian \nwith non-parametric credit risk modeling solution.\n 2. This research studied the predictive performance along with reliability indicators between",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "e97908f84dafeb47"
+  },
+  {
+    "text": "2. This research studied the predictive performance along with reliability indicators between \nstatistical models and XGBoost and SVM machine learning approaches through comparative \nevaluation.\n 3. Risk segmentation performance receives enhancement through the use of Bayesian inference \nmethods and non-parametric estimation techniques combined with artificial intelligence models \naccording to the proposed research.\n 4. The proposed system undergoes evaluation on authentic credit risk data collections to prove its \nusability for financial choice processes.\nResearch integrates advanced statistics with AI models to give financial institutions a more inter-\npretable robust credit risk scoring system that promotes better decisions alongside regulatory adher-\nence [19, 25].",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "06465f75cb0e7ea2"
+  },
+  {
+    "text": "pretable robust credit risk scoring system that promotes better decisions alongside regulatory adher-\nence [19, 25]. \n2. Literature Review\nThe field of finance has devoted significant research attention to credit risk assessment through devel-\nopment of various statistical and machine learning and hybrid approaches to improve prediction \naccuracy and reliability. Credit scoring benefits from both established techniques including logistic \nregression and Bayesian inference along with modern deep learning and non-parametric methods for \nenhanced analytical views.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 2,
+    "chunk_id": "fb046ffa6c24f3aa"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 339\n2.1 Statistical and Bayesian Approaches in Credit Scoring\nFundamental roles belong to statistical methods within the field of credit risk assessment. Logistic \nregression serves as a classic approach in binary classification tasks because it offers effective inter-\npretability [2]. The application of Bayesian methodologies has become increasingly popular since they \nreplaced traditional statistical methods. Bou-Hamad (2017) [5] together with Cerchiello and Guidici \n(2014) [6] performed research on Bayesian credit ratings providing evidence of their ability to address \nuncertainty in evaluation. The predictive capabilities of ensemble assessment models can be enhanced",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "4eb09c70117b19f3"
+  },
+  {
+    "text": "uncertainty in evaluation. The predictive capabilities of ensemble assessment models can be enhanced \nthrough Bayesian approaches according to Chen, Jiang, and Wang (2017) [7]. Research conducted by \nKrichene (2017) [21] demonstrated how the Na\u00efve Bayesian classifier performs risk assessment for \nloans in commercial banking operations.\n2.2 Non-Parametric and Hybrid Approaches\nThe application of non-parametric methods for credit scoring has surged because they efficiently \n process data distributions of various complexities. Coolen-Maturi and Coolen (2019) [9] utilized non- \nparametric predictive inference for credit rating validation to reveal its excellence in measuring pre -\ndiction uncertainties. The authors [23] studied various non-parametric imputation approaches for",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "06b61d6a8d2f6489"
+  },
+  {
+    "text": "diction uncertainties. The authors [23] studied various non-parametric imputation approaches for \nrepairing missing values found in credit-related data. NATE represents a non- parametric explainable \ncredit scoring method designed to address data imbalance issues according to Han and Jung (2024) \n[13]. A combination of statistical methods and heuristic optimization approaches makes up hybrid \nmodels for analysis. Statistical learning models show improved performance through implementation \nof meta-heuristic algorithms in consumer credit risk assessment according to Altinbas and Akkaya \n(2017) [1]. The authors developed a model-averaging approach that strengthens traditional methods \nused for credit risk prediction [18].\n2.3 Machine Learning and Deep Learning in Credit Scoring",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "837c4901f6565823"
+  },
+  {
+    "text": "used for credit risk prediction [18].\n2.3 Machine Learning and Deep Learning in Credit Scoring\nDeep learning represents the most significant innovation in credit scoring improvements due to \nmachine learning's advanced techniques. The authors conducted a comprehensive evaluation of deep \nlearning methods used for credit risk assessment but found they lacked competitiveness relative \nto traditional assessment models [11]. Teles et al. (2020) [25] conducted research on artificial deep \nlearning and Bayesian networks to test their ability in predicting credit risk while demonstrating \ntheir valuable predictive capabilities. The research examined how five machine learning algorithms \nperform in financial risk evaluation with specific accuracy findings [10]. Financial risk modeling ben-",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "e87647059f158fa2"
+  },
+  {
+    "text": "perform in financial risk evaluation with specific accuracy findings [10]. Financial risk modeling ben-\nefits from Bayesian deep learning techniques that have been implemented into its framework. The \nresearcher employed Bayesian deep learning to model credit risks in different regions [15]. Similarly, \nthe applied non-parametric Bayesian deep learning techniques for uncertainty assessment in finan -\ncial applications [22].\n2.4 Survival Analysis and Credit Risk Sensitivity\nThe technique of survival analysis serves a purpose in credit risk modeling applications. Jaber, Ismail, \nand Ramli (2017) [16] used survival analysis for credit risk assessment in progressive right-censored \ndata. Credit risk sensitivity categorization received a new approach through the combination of hier-",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "9b7bd2350571e75d"
+  },
+  {
+    "text": "data. Credit risk sensitivity categorization received a new approach through the combination of hier-\narchical clustering and kernel density estimation [19].\n2.5 Applications of Bayesian and Non-Parametric Techniques in Credit Risk\nResearchers have conducted multiple investigations into how Bayesian and non-parametric models \nwork in various credit risk situations. Financial time series are investigated through non-parametric \nBayesian approaches by Rizvi (2018) [24]. The authors developed an efficient set of non-parametric",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 3,
+    "chunk_id": "c982738534ebb9cf"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 340\nprocedures which work for online credit scoring [3, 4]. The approach to power market credit evalu -\nation through Bayesian discriminant analysis was presented by Yan et al. [26]. Hooman et al. [14] \nexamined statistical data mining methods in credit scoring systems through a research study that \nevaluated how model interpretation affects predictive capabilities. Using data mining methods based \non financial and non-financial indicators aimed to enhance credit risk evaluation processes [20].\n2.6 Summary\nLiterature shows a growing trend that credits businesses worldwide to replace straightforward statis-\ntical methods with state-of-the-art machine learning models and combination scoring systems in their",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 4,
+    "chunk_id": "0e8b75df2b75182a"
+  },
+  {
+    "text": "tical methods with state-of-the-art machine learning models and combination scoring systems in their \ncredit evaluation process. The application of Bayesian with non-parametric methods delivers reliable \napproaches to uncertainty control and deep learning advances have positioned themselves as lead -\ners in predictive accuracy estimation. Research in financial risk management will achieve beneficial \nresults through implementing these methods.\n3. Method\nA credit risk assessment is performed through the combination of three methodological approaches \nincluding statistical and non-parametric and machine learning methods. The methodology includes \ndata preprocessing as its first section and then continues with model selection followed by feature",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 4,
+    "chunk_id": "278e2b33e28b7d6d"
+  },
+  {
+    "text": "data preprocessing as its first section and then continues with model selection followed by feature \nengineering and model training and evaluation techniques together with validation approaches.\n3.1. Data Preprocessing\nThe database shows historical credit information that combines specifications on borrowers with their \nfinancial and loan characteristics and credit scoring data.\nThe dataset used in this study consists of real-world credit risk assessment records obtained from \nthe German Credit Dataset, provided by the UCI Machine Learning Repository. The dataset covers \nfinancial transactions and borrower profiles collected from German financial institutions between \n2015 and 2023. The data represents 1,000 credit applicants, with attributes including credit amount,",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 4,
+    "chunk_id": "7aae10425c47f21f"
+  },
+  {
+    "text": "2015 and 2023. The data represents 1,000 credit applicants, with attributes including credit amount, \nduration, employment status, previous default history, and debt-to-income ratio. The dataset also \nincludes categorical variables related to account status, housing type, and loan purpose. The source of \nthis dataset is the UCI Machine Learning Repository, ensuring data reliability and credibility  [12].\nThe preprocessing steps include:\n3.1.1 Handling Missing Values\nNon-parametric k-Nearest Neighbors (kNN) performs the imputation of missing values according \nto Ramosaj and Pauly [23]. Under the condition of having feature X the k-Nearest Neighbors (kNN) \nalgorithm calculates estimated values for missing entries.\nXi kj Nk iX j^/nobreakspace /nobreakspace/g32/g166/g143/g11/g121 (1)",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 4,
+    "chunk_id": "5fcfe096e2abd81d"
+  },
+  {
+    "text": "Xi kj Nk iX j^/nobreakspace /nobreakspace/g32/g166/g143/g11/g121 (1)\nNk(i) denotes the particular set of k closest nearby instances which correspond with the instance i.\n3.1.2 Feature Scaling and Transformation\nStandardization of continuous numerical features requires implementation of z-score normalization.\nXX'/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace/nobreakspace/g32/g16/g11/g12/g80/g86 (2)",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 4,
+    "chunk_id": "85a96b6aeb20a874"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 341\nThe calculation uses standard deviation \u03c3 together with mean value \u03bc.\nThe encoding technique depends on variable cardinality to use one-hot encoding or label encoding \nwith categorical variables.\n3.2. Model Selection\nInsufficient and robust credit risk prediction requires analyzing various models:\n 1. Logistic Regression (Baseline Model)\n  The probability P(Y=1) of credit default becomes a prediction outcome from the logistic regression \nmodel.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "3ced2c6a880ac7c0"
+  },
+  {
+    "text": "The probability P(Y=1) of credit default becomes a prediction outcome from the logistic regression \nmodel.\nPY Xe fromit on Xii(/nobreakspace|/nobreakspace)/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace^/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/g32/g32 /g14/g16 /g14/g166 /g32/g11/g12/g11/g12/g11/g12/g11/g1211 11 0/g69/g69 (3)\n  The statistical model includes intercept term \u03b20 and multiple characteristic coefficients \u03b2i.\n 2. Bayesian Credit Scoring Models\n  The application of Bayesian methods with prior knowledge helps enhance credit prediction accu-\nracy [5]. When applying a Bayesian model the probability of category C within the score range",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "30676715aebfae69"
+  },
+  {
+    "text": "racy [5]. When applying a Bayesian model the probability of category C within the score range \noccurs through a calculation of the posterior distribution:\nPC XP XP XC PC(/nobreakspace|/nobreakspace)/nobreakspace/nobreakspace/nobreakspace*/nobreakspace(/nobreakspace|/nobreakspace)/nobreakspace//nobreakspace/nobreakspace/nobreakspace/g32/g11/g12 /g11/g12 (4)\n  The Na\u00efve Bayesian classifier functions on independent features through the following calculation:\nPC XP XP Cf romi to nP Xi C(/nobreakspace|/nobreakspace)/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace*/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace(_ /nobreakspace|/nobreakspace)/nobreakspace/nobreakspace/g32/g11/g12/g11/g12/g150/g32/g11/g121 (5)",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "1a0d5807c80355c5"
+  },
+  {
+    "text": "3. Non-Parametric Predictive Inference (NPI)\n  NPI maintains its effectiveness regardless of the distribution because it operates without distri-\nbution assumptions [9]. Researchers calculate default probability through historical data analysis \nand imprecise methods of probability assessment:\nPY Xn SX(/nobreakspace|/nobreakspace)/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/g32/g32 /g14/g11/g12 /g11/g1211 (6)\n  The count of past observations meeting the credit default criteria is noted as S(X).\n 4. Machine Learning Approaches\n  \u2022 Random Forest (RF) improves both accuracy and overfitting prevention through the utilization \nof an ensemble of decision trees.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "c1d4560cf1e7be87"
+  },
+  {
+    "text": "of an ensemble of decision trees.\n  \u2022 Support Vector Machine (SVM): Finds an optimal hyperplane for classification using:\nwX bT /nobreakspace*/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/g14/g320 (7)\n  where w is the weight vector and b is the bias term.\n  \u2022 Deep Learning: Deep learning models trained using backpropagation with the loss function:\n( ) ( ) ( )\uf8ee\uf8f9=\u2212\u2211 = + \u2212 \u2212\uf8f0\uf8fb \u02c6\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 1\u00a0 \u00a0 \u00a0 *\u00a0log \u00a0 \u00a01\u00a0 \u00a0 \u00a0*\u00a0log 1\u00a0 \u00a0 \u00a0\u00a0ii i iL fromi ton y y y (8)\nOur hybrid credit risk assessment process requires sequential implementation which we illus -\ntrate through a flowchart. A framework obtained with multiple statistical and non-parametric and \nmachine learning techniques delivers robust classification. Data preprocessing initiates the process",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "d96e7e868625e262"
+  },
+  {
+    "text": "machine learning techniques delivers robust classification. Data preprocessing initiates the process \nfollowed by model selection and training before risk classification through model evaluation ends the \nprocedure.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 5,
+    "chunk_id": "db487ab9e0a8a230"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 342\nFigure 1: Flowchart of the proposed hybrid credit risk assessment framework.\n3.3. Model Training and Optimization\nThe training process of each model uses cross-validation according to Kenny & Chan [19]. The hyper-\nparameters reach maximum predictive accuracy through optimization from both grid search and \nBayesian optimization methods.\nThe optimization requires the following loss functions together with other performance measures:\n\u2022 Binary Cross-Entropy for logistic regression and deep learning:\n( ) ( ) ( ) ( )\uf8ee\uf8f9=\u2212\u2211 = + \u2212 \u2212\uf8f0\uf8fb \u02c6\u02c6\u00a0 \u00a0 \u00a0 \u00a0 1 \u00a0 \u00a0 \u00a0 _ *\u00a0log _ \u00a0 \u00a01\u00a0 \u00a0 _ \u00a0*\u00a0log 1\u00a0 \u00a0 _ \u00a0\u00a0L f r o m i t o n yi yi yi yi (9)\n\u2022 Gini Impurity for decision trees and random forests:",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 6,
+    "chunk_id": "b902e3454dee65f8"
+  },
+  {
+    "text": "\u2022 Gini Impurity for decision trees and random forests:\nGf romi to cp i/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/g32/g16/g166/g32/g11/g1211 2\n(10)\nThe probability of class i in the equation is denoted by pi.\n3.4. Model Evaluation\nThe evaluation of the models takes place by applying three essential performance metrics. \n\u2022 Accuracy:\nAccuracy TP TN TP TN FP FN/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/g32/g14/g11/g12 /g14/g14 /g14/g11/g12 (11)\n\u2022 Precision and Recall:\nPrecision TP TP FP/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace/g32/g14/g11/g12 (12)",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 6,
+    "chunk_id": "197b77fc34a1f85c"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 343\nRecall TP TP FN/nobreakspace/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace/g32/g14/g11/g12 (13)\n\u2022 F1-Score:\nFP recision Recall Precision Recall12/nobreakspace/nobreakspace/nobreakspace*/nobreakspace/nobreakspace*/nobreakspace/nobreakspace//nobreakspace/nobreakspace/nobreakspace/g32/g11/g12 /g14/g11/g12 (14)\n\u2022 Area Under the Receiver Operating Characteristic Curve (AUC-ROC):  The predictive \nmodel discrimination capability can be measured through Area Under the Receiver Operating \nCharacteristic Curve (AUC-ROC).\n3.5. Validation Techniques\nThe following generalization techniques are utilized for validation purposes:\n 1. K-Fold Cross-Validation (with k=10):",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 7,
+    "chunk_id": "21c512a567260a87"
+  },
+  {
+    "text": "The following generalization techniques are utilized for validation purposes:\n 1. K-Fold Cross-Validation (with k=10):\nCV kf romi to kA ccuracy i/nobreakspace/nobreakspace//nobreakspace*/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace/nobreakspace_/nobreakspace/g32/g11/g12/g166/g32/g11/g1211 (15)\n 2. The available data is divided into training data covering 80% while testing data contains 20%.\n 3. The statistical method Bootstrap Sampling provides random replications for calculation of confi-\ndence intervals.\n3.6 Summary\nThe proposed approach combines statistical analysis with Bayesian methods and non-parametric \nschemes in addition to machine learning algorithms to enhance credit risk evaluations. Multiple",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 7,
+    "chunk_id": "4e309a104883f439"
+  },
+  {
+    "text": "schemes in addition to machine learning algorithms to enhance credit risk evaluations. Multiple \npredictive models working together through hybridization produce robust results which are further \nvalidated by applying statistical techniques to verify them.\n4. Results and Discussion\nAnalysis of the experimental results derived from the proposed hybrid approach serves to assess \ncredit risk appears in this section. Different evaluation metrics help assess the performance of the \nexamined models before a detailed analysis of the findings occurs.\n4.1. Experimental Setup\nThe evaluation process included 10,000 credit applications that contained 15 financial and demo -\ngraphic features for training and assessment purposes. The data was split into training (80%) and test-",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 7,
+    "chunk_id": "20aa0e00330be8c9"
+  },
+  {
+    "text": "graphic features for training and assessment purposes. The data was split into training (80%) and test-\ning (20%) sets and multiple cross-validation folds (10) were used for accurate performance evaluation.\n4.2. Model Performance Comparison\nDifferent models exhibit performance evaluation through Accuracy, Precision, Recall, F1-Score, and \nAUC-ROC evaluation methods. Table 1 shows the summary of outcomes achieved by each of the \nmodels.\nTable 1: Model Performance Comparison\nModel Accuracy Precision Recall F1-Score AUC-ROC\nLogistic Regression 82.4% 79.5% 76.8% 78.1% 0.841\nNa\u00efve Bayes 80.1% 77.3% 74.5% 75.9% 0.827\nDecision Tree 84.9% 81.6% 80.3% 80.9% 0.859\nRandom Forest 89.2% 86.7% 85.3% 86.0% 0.912\nSVM 86.1% 82.9% 81.1% 82.0% 0.884\nArtificial Intelligence 88.5% 85.4% 84.1% 84.7% 0.902",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 7,
+    "chunk_id": "7c19c787c4be78ad"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 344\nThe analysis for comparing different credit risk scoring models displays AUC-ROC curves of each \nclassifier. The model effectiveness to separate defaulters from non-defaulters rises directly with an \nincreasing AUC. The ROC curves for Logistic Regression, Na\u00efve Bayes, Decision Trees, Random Forest \nand Support Vector Machines (SVM) and Artificial deep learning are shown in the following figure.\nFigure 2: AUC-ROC curves for different credit risk scoring models\n4.2.1 Discussion of Model Performance\n\u2022 The Random Forest method delivered 89.2% accuracy and 0.912 AUC-ROC value because it \ndemonstrated superior capabilities for identifying defaulters and non-defaulters.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 8,
+    "chunk_id": "4d01455f0c7e1259"
+  },
+  {
+    "text": "demonstrated superior capabilities for identifying defaulters and non-defaulters.\n\u2022 Deep learning displayed a lower performance rate than Random Forest yet managed to detect \nrisky applicants at an 84.1% level of accuracy.\n\u2022 The recall values from Logistic Regression and Na\u00efve Bayes indicated poor capability among \nthese models to detect defaulters correctly.\n\u2022 The decision trees maintained good performance yet its AUC-ROC results demonstrated overfit-\nting characteristics in comparison to ensemble models.\n4.3. Feature Importance Analysis\nThe Random Forest model allowed us to evaluate individual feature contributions through its feature \nimportance scoring method. The leading five influential variables appear in Table 2.\nTable 2: Feature Importance in Credit Risk Prediction",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 8,
+    "chunk_id": "90f3c2c041e5298e"
+  },
+  {
+    "text": "Table 2: Feature Importance in Credit Risk Prediction\nFeature Importance Score\nCredit History Length 23.4%\nDebt-to-Income Ratio 19.7%\nPrevious Loan Defaults 17.2%\nMonthly Income 15.3%\nNumber of Credit Accounts 12.8%\nA Random Forest model delivers feature importance analysis to understand the key determinants \nof credit risk field. The bar chart depicts which five features prove most crucial for credit default \nprediction.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 8,
+    "chunk_id": "2a362122d74355fe"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 345\nFigure 3: Feature Importance Analysis using the Random Forest Model\n4.3.1 Discussion of Feature Importance\n\u2022 The analysis shows that the length of credit history nears a quarter (23.4%) as the leading factor \nin evaluating borrower behavior patterns.\n\u2022 A person's Debt-to-Income Ratio (19.7%) should always be used to evaluate default risk.\n\u2022 The default risk of borrowers who previously defaulted on loans stands at 17.2% because past \ndefaults directly indicate higher chances for future defaults.\n\u2022 Monthly Income (15.3%) functions as a key factor yet position alone does not entirely establish \ncreditworthiness since other financial duties need analysis.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 9,
+    "chunk_id": "24cb05f7893b7d68"
+  },
+  {
+    "text": "creditworthiness since other financial duties need analysis.\n\u2022 A large number of credit accounts (12.8%) demonstrates a dual connection to reliable debt man -\nagement capabilities but also reflects the possibility of financial overstretching.\n4.4. Model Robustness and Stability\nWe evaluated the model stability by executing both cross-validation methods alongside statistical \nsignificance tests. The results show:\n\u2022 Random Forest and ANN displayed low variance that demonstrates their ability to apply predic-\ntions uniformly in different sample datasets.\n\u2022 The standard deviation of Logistic Regression and Decision Trees models identified data varia -\ntions as their weak point.\nA McNemar\u2019s test confirmed that the statistical significance existed between ANN and Random",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 9,
+    "chunk_id": "df7b4ff21f73e2cd"
+  },
+  {
+    "text": "tions as their weak point.\nA McNemar\u2019s test confirmed that the statistical significance existed between ANN and Random \nForest performance results. Random Forest achieved a p-value of 0.018 demonstrating substantial \nsuperiority of its performance over ANN.\n4.5. Comparison with Existing Studies\nEnsemble learning models demonstrate great effectiveness for credit risk assessment according to \nBou-Hamad [5] and our research findings confirm this discovery. Compared to traditional models:\n\u2022 Our Random Forest model outperforms traditional logistic regression methods by at least 6.8% \nin accuracy and 0.071 in AUC-ROC.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 9,
+    "chunk_id": "9e3b26eb9e6fced5"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 346\n\u2022 Research shows deep learning techniques work best for feature extraction along with complex \ndecision boundary detection as demonstrated in the deep learning approach.\n\u2022 The Na\u00efve Bayes model failed to deliver good results because financial data features fail to con -\nform to the independence assumption typical of Na\u00efve Bayes methods.\n4.6. Limitations and Future Work\nThe hybrid method delivers good accuracy and robustness but it contains several current constraints.\n\u2022 Data imbalance in the dataset creates fewer defaulting applicants than non-defaulters and \nthis affects the recall rate for applicants considered high risk. Research should apply SMOTE",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "80db4ec81b64229e"
+  },
+  {
+    "text": "this affects the recall rate for applicants considered high risk. Research should apply SMOTE \n(Synthetic Minority Over-sampling Technique) to enhance the balance of model prediction \nelements.\n\u2022 The black-box characteristics of Random Forest and ANN models present challenges when seek-\ning explanations about the credit decision-making process despite their prediction accuracy. \nFurther research should add XAI techniques such as SHAP to provide explainability mecha -\nnisms in the analysis.\n\u2022 Future predictive capabilities will improve when future model development incorporates trans -\naction data and alternative credit scoring methods with social media insights into real-time \nanalysis.\n4.7. Summary",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "6997abb18b06190e"
+  },
+  {
+    "text": "action data and alternative credit scoring methods with social media insights into real-time \nanalysis.\n4.7. Summary\nThe research findings show that ensemble learning approaches specifically Random Forest performs \nbetter than conventional credit scoring approaches. A feature analysis shows credit history together \nwith debt-to-income ratio and previous loan defaults stand as the main elements which determine \ncredit risk scores. New approaches for credit risk assessment methodology development become pos -\nsible because this research demonstrates how accuracy improves but compromises interpretability \nwhile lowering robustness.\n5. Conclusion\nResearchers conducted a study which combined machine learning strategies into credit risk evalua -",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "86ffa0d873e74ee2"
+  },
+  {
+    "text": "5. Conclusion\nResearchers conducted a study which combined machine learning strategies into credit risk evalua -\ntion to boost predictive accuracy rates. Random Forest emerged as the best ensemble learning method \nwhich produced superior results than traditional scoring models including Logistic Regression and \nNaive Bayes in credit assessment tests. Random Forest produced an effective separation between \nhigh-risk and low-risk borrowers according to its 0.912 AUC-ROC and 89.2% accuracy. Deep learning \ndemonstrated excellent ability to identify risky applicants which made them suitable for such tasks \nthrough their high recall rates.\nAnalysis of feature importance showed that the three key characteristics for determining credit risk",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "b5dec69608bf5632"
+  },
+  {
+    "text": "Analysis of feature importance showed that the three key characteristics for determining credit risk \nare Last Credit Chain Length and Credit Debt Ratio to Income and Prior Loan Repayment Failures. \nCurrently established financial research demonstrates that previous credit behavior and financial \nstability create fundamental indicators to determine default risk. The high accuracy of ensemble \nmethods creates interpretability challenges researchers must address through Explainable AI (XAI) \ntechniques during future development to gain transparency in credit decision-making processes. The \nresearch identifies several limitations as outweighed by its encouraging outcomes. Class imbalance \nin the data affects the recall performance of defaulters since their numbers remain lower than other",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "39fcf9b4f212a00f"
+  },
+  {
+    "text": "in the data affects the recall performance of defaulters since their numbers remain lower than other \ncategories. Research efforts should need to investigate SMOTE resampling as a solution for balancing \nclass distributions. The predictive achievements of the presented models remain high but structured \nfinancial data usage restricts a comprehensive understanding of credit risk assessment. Additional \nrisk prediction accuracy can be achieved through implementing alternative data types which include",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 10,
+    "chunk_id": "4f60e07852011e92"
+  },
+  {
+    "text": "Nasser AK, Results in Nonlinear Anal. 8 (2025), 337\u2013347. 347\ntransaction histories as well as behavioral analytics and real-time financial information. The study \nshows ensemble learning models produce the best performances for credit risk assessment because \nthey deliver precise borrower classifications. Financial institutions gain important directional guid -\nance through feature importance analysis that permits them to enhance their credit risk management \nstrategies. Upcoming work should strive to achieve accurate results along with transparent interpre-\ntations using varied data streams that allow creation of comprehensive risk evaluation methodologies.\nREFERENCES\n[1] Altinbas, H., & Akkaya, G. C. (2017). Improving the performance of statistical learning methods with a combined",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "8b5425585f25c555"
+  },
+  {
+    "text": "[1] Altinbas, H., & Akkaya, G. C. (2017). Improving the performance of statistical learning methods with a combined \nmeta-heuristic for consumer credit risk assessment. Risk Management, 19, 255\u2013280.\n[2] Amaro, M. M. (2020). Credit scoring: comparison of non-parametric techniques against logistic regression  (Master's \nthesis, Universidade NOVA de Lisboa (Portugal)).\n[3] Ashofteh, A., & Bravo, J. M. (2019). A non-parametric-based computationally efficient approach for credit scoring.\n[4] Ashofteh, A., & Bravo, J. M. (2021). A conservative approach for online credit scoring. Expert Systems with \nApplications, 176, 114835.\n[5] Bou-Hamad, I. (2017). Bayesian credit ratings: A random forest alternative approach. Communications in Statistics-\nTheory and Methods, 46(15), 7289\u20137300.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "16bb316ea4d090c1"
+  },
+  {
+    "text": "Theory and Methods, 46(15), 7289\u20137300.\n[6] Cerchiello, P., & Guidici, P. (2014). Bayeslan credit ratings. Communications in Statistics-Theory and Methods, 43(4), \n867\u2013878.\n[7] Chen, H., Jiang, M., & Wang, X. (2017, July). Bayesian ensemble assessment for credit scoring. In 2017 4th International \nConference on Industrial Economics System and Industrial Security Engineering (IEIS) (pp. 1\u20135). IEEE.\n[8] Chen, N., Ribeiro, B., & Chen, A. (2016). Financial credit risk assessment: a recent review. Artificial Intelligence \nReview, 45, 1\u201323.\n[9] Coolen-Maturi, T., & Coolen, F. P. A. (2019). Non-parametric predictive inference for the validation of credit rating \nsystems. Journal of the Royal Statistical Society Series A: Statistics in Society, 182(4), 1189\u20131204.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "ada0b5455c22abae"
+  },
+  {
+    "text": "systems. Journal of the Royal Statistical Society Series A: Statistics in Society, 182(4), 1189\u20131204.\n[10] Dong, H., Liu, R., & Tham, A. W. (2024). Accuracy comparison between five machine learning algorithms for financial \nrisk evaluation. Journal of Risk and Financial Management, 17(2), 50.\n[11] Gunnarsson, B. R., Vanden Broucke, S., Baesens, B., \u00d3skarsd\u00f3ttir, M., & Lemahieu, W. (2021). Deep learning for \ncredit scoring: Do or don\u2019t?. European Journal of Operational Research, 295(1), 292\u2013305.\n[12] Dua, D., & Graff, C. (2024). UCI Machine Learning Repository: German Credit Dataset. Retrieved from https://archive.\nics.uci.edu/ml/datasets/Statlog+(German+Credit+Data).\n[13] Han, S., & Jung, H. (2024). NATE: Non-pArameTric approach for Explainable credit scoring on imbalanced class. PloS",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "6203e3933599f7f9"
+  },
+  {
+    "text": "one, 19(12), e0316454.\n[14] Hooman, A., Marthandan, G., Yusoff, W. F. W., Omid, M., & Karamizadeh, S. (2016). Statistical and data mining \nmethods in credit scoring. The Journal of Developing Areas, 50(5), 371\u2013381.\n[15] Hounnou, L. (2024). Harnessing the power of machine learning, Bayesian neural networks, and spatial analysis in \nmodeling a predictive system, credit risk, and organizational performance across continents  (Doctoral dissertation, \nUniversity of Illinois at Urbana-Champaign).\n[16] Jaber, J. J., Ismail, N., & Ramli, S. N. M. (2017). Credit risk assessment using survival analysis for progressive \nright-censored data: a case study in Jordan. J. Internet Banking Commer., 22.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "270802bca8651a1c"
+  },
+  {
+    "text": "right-censored data: a case study in Jordan. J. Internet Banking Commer., 22.\n[17] Jaber, J. J., Ismail, N., & Ramli, S. N. M. (2017, April). Evaluation of portfolio credit risk based on survival analysis \nfor progressive censored data. In AIP Conference Proceedings (Vol. 1830, No. 1). AIP Publishing.\n[18] Jha, P. N., & Cucculelli, M. (2021). A new model averaging approach in predicting credit risk default. Risks, 9(6), 114.\n[19] Kenny, J., & Chan, J. (2025). A Novel Approach to Credit Risk Sensitivity Categorisation and Classification Using \nHierarchical Clustering, Kernel Density Estimation, and Naive Bayes Classification. Kernel Density Estimation, and \nNaive Bayes Classification (February 14, 2025).",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "0b97dfae4e1bc101"
+  },
+  {
+    "text": "Naive Bayes Classification (February 14, 2025).\n[20] Khemakhem, S., & Boujelbene, Y. (2018). Predicting credit risk on the basis of financial and non-financial variables \nand data mining. Review of accounting and finance, 17(3), 316\u2013340.\n[21] Krichene, A. (2017). Using a naive Bayesian classifier methodology for loan risk assessment: Evidence from a Tunisian \ncommercial bank. Journal of Economics, Finance and Administrative Science, 22(42), 3\u201324.\n[22] Levital, M. F., Khawaled, S., Kennedy, J. A., & Freiman, M. (2025). Non-parametric Bayesian deep learning approach \nfor whole-body low-dose PET reconstruction and uncertainty assessment. Medical & Biological Engineering & \nComputing, 1\u201316.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "4293a80344455d81"
+  },
+  {
+    "text": "Computing, 1\u201316.\n[23] Ramosaj, B., & Pauly, M. (2019). Predicting missing values: A comparative study on non-parametric approaches for \nimputation. Computational Statistics, 34(4), 1741\u20131764.\n[24] Rizvi, S. A. A. (2018). Analysis of financial time series using non-parametric Bayesian techniques  (Doctoral disserta-\ntion, University of Oxford).\n[25] Teles, G., Rodrigues, J. J. P. C., Rab\u00ea, R. A., & Kozlov, S. A. (2020). Artificial neural network and Bayesian network \nmodels for credit risk prediction. Journal of Artificial Intelligence and Systems, 2(1), 118\u2013132.\n[26] Yan, D., Xiong, Y., Zhan, Z., Liao, X., Ke, F., Lu, H., ... & Wang, Q. (2021). Research on eigenvalue selection method of",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "8948c46d24d456c5"
+  },
+  {
+    "text": "power market credit evaluation based on non parametric Bayesian discriminant analysis and cluster analysis. Energy \nReports, 7, 990\u2013997.",
+    "source_document": "RNA-v8-i2-026-337.pdf",
+    "page_number": 11,
+    "chunk_id": "d8fddb8c71189205"
+  },
+  {
+    "text": "International Journal of Management and Applied Science, ISSN: 2394-7926                          Volume-9, Issue-9, Sept.-2023 \nhttp://iraj.in \nCredit Risk Prediction Using Machine Learning Analytics: An Ensemble Model \n \n79 \nCREDIT RISK PREDICTION USING MACHINE LEARNING \nANALYTICS: AN ENSEMBLE MODEL \n \n1TRISHITA SAHA, 2 SAROJ KUMAR BISWAS, 3SAPTARSI SANYAL, 4BINOTI PATRO,  \n5BISWAJIT PURKAYASTHA  \n \nNational Institute of Technology Silchar, Silchar, Cachar, India \nE-mail: 1trishita51@gmail.com, 2bissarojkum@yahoo.com, 3saptarsi_pg_21@cse.nits.ac.in, 4binotipatro@mba.nits.ac.in, \n5biswajit_purkayastha@hotmail.com \n \n \nAbstract -The occurrence of the likelihood that a borrower would payback his debt to his lender (bank) is quite a challenging",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "8acb5cf4bbf59f75"
+  },
+  {
+    "text": "task. Various factors must be taken into consideration for deciding on advancing any  type of loans. This decision making \nprocess requires sufficient quantitative data for computation purpose which is a very time consuming and involves a risk \nofhuman errors. To overcome this tedious and hectic task, an expert system named Expert System  for Credit Risk Prediction \nusingExtra-Trees (ESCRPET) has been proposed that uses acombination of oversampling technique,\u201eSynthetic \nMinority Oversampling Technique\u201f (SMOTE) and undersampling technique, \u201eEdited Nearest Neighbor\u201f (ENN) to deal with \nclass imbalance problem,uses Boruta feature selection techniqueto select relevant features that are useful for model training",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "81328eb48b3a3ea6"
+  },
+  {
+    "text": "and finally classification is done using Extra-Trees ensemble bagging technique. The performance of the proposed model is \nmeasured in terms of accuracy and  f1-score using 10 -folds cross validation and is  compared with single classifier based \nmodels, ensemble models and various models present in literature. \n \nKeywords - Credit Risk, SMOTE, ENN, Boruta, Extra Tree \n \nI. INTRODUCTION \n \n\u201eCredit risk\u201f prediction is such an arrangement  where \nthe chances of repaying back a loan borrowed by a \nloan applicant is predicted. These  predictions are \nbased upon several factors  such as the financial \nbackground of the loan applicant, salary of the \napplicant etc. Based on  the mentioned factors, the \nbank decides on whether to proceed with the loan or",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "f9338ce507d012a8"
+  },
+  {
+    "text": "applicant etc. Based on  the mentioned factors, the \nbank decides on whether to proceed with the loan or \nnot. If the  decision is good then it means that it is a \npositive sign for the loan applicant as it suggests  that \nthe loan applicant is likely able to repay the  loan \nback. If the decision is bad then it means that the loan \nborrower is not in a condition to  repay the loan back \nto the bank  [1]. Sometimes it becomes tedious work \nfor humans to do manual calculations for deciding \nthis credit risk  problem. Even human calculation \nerror may occur which may lead to the bank taking \nwrong decisions and incur heavy financial losses. \n \nTo overcome this problem, various methodologies \nhave been proposed by researchers like Turjo et al.",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "24fec9ca66ecdbd2"
+  },
+  {
+    "text": "To overcome this problem, various methodologies \nhave been proposed by researchers like Turjo et al. \n[2], have proposed  Credit Risk Assessment Model \n(CRAM) which  uses heatmap to perform feature \nselection and  various Machine Learning models for \nthe prediction of credit risk;Alabi et al.[3], have \nproposed a system which uses Chi -Square for feature \nselection and Support  Vector Machine with Radial \nBasis Function as kernel (SVM- RBF) for prediction \nof credit risk etc., in order to reduce human errors. But \nthe problem with all  these existing methodologies is \nthat most of the existing methodologies for credit risk \nprediction uses single classifier based models. The \nsingleclassifier based models mostly fail to reduce the",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "aca4d8ba3c81192e"
+  },
+  {
+    "text": "prediction uses single classifier based models. The \nsingleclassifier based models mostly fail to reduce the \nvariance and identify biases if anypresent in the data. \nIn most of the cases, class  imbalance problem is not \nbeen taken care of properly as  well as  thefeature \nselection is also not in systematic manner.Therefore, \nthe present study proposes an expert system, namely, \nExpert System for Credit Risk Prediction using Extra - \nTrees (ESCRPET) which uses  the combination  of \noversampling,\u201eSMOTE\u201f and undersampling,  \u201eENN\u201f \nmethod,uses Boruta to perform feature  selection and \nthe classification is done usin g ET  bagging \nensemble.Feature selectionreducestime  complexity \nand overfitting and increases the accuracy of the \nmodel. The proposed model ESCRPET uses bagging",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "5a882f1c01358a1c"
+  },
+  {
+    "text": "and overfitting and increases the accuracy of the \nmodel. The proposed model ESCRPET uses bagging \nensemble ET for classification because it harnesses \nthe capabilities of multiple single classifier Decision \nTrees (DT) which results in decrease of overfitting, \nvariance and biasing of a classification task, and \nmakes better predictions  than any single-classifier \nbased model. The performance of the proposed model \nis measured in terms of accur acy and f1 -score using \n10-folds cross validation and hence the proposed \nmodel,\u201eESCRPET\u201fbecomes reliable system for credit \nrisk prediction. \n \nThe remaining part of this paper is discussed as  \nfollows - section II discusses the related literature \nstudies on the rationale of the study identified, section",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "c83ea403aa3b5081"
+  },
+  {
+    "text": "follows - section II discusses the related literature \nstudies on the rationale of the study identified, section \nIII deals with the methodology containing the dataset \ndescription and the methods that have been used. \nThen section IV consists of the result and discussion  \nportion. And finally, the last sectiondiscusses the  \nconclusion of the paper. \n \nII. RELATED WORKS \n \nAddo etal.[4] positedthat the use of proper features \nfrom the dataset for modeling plays a  vital role in the \nmachine learning problem. In [5]  and [6], the results",
+    "source_document": "Paper.pdf",
+    "page_number": 1,
+    "chunk_id": "aa3b37cbf156de35"
+  },
+  {
+    "text": "International Journal of Management and Applied Science, ISSN: 2394-7926                          Volume-9, Issue-9, Sept.-2023 \nhttp://iraj.in \nCredit Risk Prediction Using Machine Learning Analytics: An Ensemble Model \n \n80 \nshowed that Extreme Gradient Booting (XGB)  \nperforms better than other single classifier models \nincluding Logistic  Regression, Support Vector \nMachine and self- organizing algorithms. Sometimes, \nsocial behavioral factors also need to be taken into \nconsideration for credit scoring models [7]  [8]. In an \nanother study conducted by Jiang et al. [9]  finds that \na novel credit evaluation technique based on SAA \nandDecision Trees (DT)has been  presented. The \naccuracy of Random Forest is 88.5%, which is 7.2% \ngreater than Decision Tree, while Decision Tree has",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "34fc1d66de94a28d"
+  },
+  {
+    "text": "accuracy of Random Forest is 88.5%, which is 7.2% \ngreater than Decision Tree, while Decision Tree has \nthe highest precision. As a result, the Decision Tree \npredictor model is more effective at locating the good \ncredits, whereas the Random Forest predictor model \nis better at identifying defaults. In light of the model's \nability to identify the majority of strong credits while \nalso spotting probable defaults, in Kumar et al.[10],it \ncan be concluded that the total return on investment \nwill be high. Ant Colony Optimization (ACO),  \nParticle Swarm Optimization (PSO) and Genetic  \nAlgorithm (GA) are some of the famous algorithms \nhelpful for  credit risk management  problems [11] \n[12] [13] [14] [15]. Although bagging is significantly",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "b32e2669e3608d87"
+  },
+  {
+    "text": "helpful for  credit risk management  problems [11] \n[12] [13] [14] [15]. Although bagging is significantly \nless accurate than boosting, it is almost always more \naccurate than a  single classifier.  However, when \nusing neural networks, boosting might result in \nensembles that are less  accurate than a single  \nclassifier. Maclin et al.[16] have analyzed the  \nperformance of boosting classifiers for the prediction \nof credit risk. \n \nIII. PROPOSED METHODOLOGY \n \nThe model ESCRPET proposed in this paper consists \nof four main steps - A. DatasetCollection B. \nTreatment of Class Imbalance Problem, C. Feature \nselection and D.  Classification using ET Bagging \nmethod. The flow chart of the proposed model \nESCRPET is shown in diagram Fig. 1. \n \n \nFig.1: Flow diagram of the ESCRPET method",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "3df3e0270f91dcae"
+  },
+  {
+    "text": "ESCRPET is shown in diagram Fig. 1. \n \n \nFig.1: Flow diagram of the ESCRPET method \n \nA. Data Collection \nThe dataset used for the model ESCRPET is the  \nTaiwan dataset which has been taken from the  UCI \nMachine Learning Repository. It has a total  of25 \nattributes with 30000 instances which holds  the \nfinancial details of loan applicants. The target \nvariable of the dataset is the \n\u201cDefault.payment.next.month\u201d variable whose values \nare either \u201e0\u201f or \u201e1\u201f.The value \u201e0\u201f means  that the \napplicant of the loan is unlikely capable  of repaying \nthe loan back to the bank based on  his / her previous \nfinancial background and while the value \u201e1\u201f stands \nfor the likelihood of  repaying back if the loan holds \nfor the loan applicant. There are 23364 values of \u201e0\u201f",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "dd13b169cc8e89af"
+  },
+  {
+    "text": "for the likelihood of  repaying back if the loan holds \nfor the loan applicant. There are 23364 values of \u201e0\u201f \nin \u201cdefault.payment.next.month\u201d variable while 6636 \nvalues of \u201e1\u201f are present. This huge difference \nbetween these two numbers of binary values of the \ntarget variable makes the dataset highly imbalanced. \n \nB. Class Imbalance Treatment \nAs seen in section III.A that there is high imbalance \nin the target variable in the dataset i.e.  the majority \nclass is inclined towards \u201e0\u201f value  while the minority \nclass is inclined towards \u201e1\u201f value. If this dataset with \nhigh imbalance is trained with any Ensemble model, \nthen the output will be biased towards the majority \nclass only which will result in  wrong output and thus  \nwill lower the accuracy and prediction level of  the",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "d2591098e666b1f5"
+  },
+  {
+    "text": "class only which will result in  wrong output and thus  \nwill lower the accuracy and prediction level of  the \nmodel.For this, a combination of oversampling and \nundersampling methods is applied to this dataset. \nOversampling generally  doubles and increases the \nvalues in the minority  class. No pattern is lost due to \noversampling which increases the performance of the \nmodel but due to increase of the values, it may lead to \noverfitting problem. On the other hand, in \nundersampling, in the majority class, deletion of  \nexamples takes place. The main advantage of \nundersampling is that low computation of power  is \nrequired but it lacks behind as some necessary  \npatterns may get lost due to deletion of examples. In \nour proposed model ESCRPET, SMOTE is chosen as",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "986e76f9761a5f28"
+  },
+  {
+    "text": "patterns may get lost due to deletion of examples. In \nour proposed model ESCRPET, SMOTE is chosen as \nthe oversampling method  and for undersampling  \nmethod, ENN is chosen.  A combination of both \nSMOTE and ENN is used in the model ESCRPET. \nBy applying a modest amount of oversampling to the \nminority class, will not only decrease the bias \ntowards the majority class but will also deal with the \nproblem of o verfitting which is produced during  \noversampling techniques. Also by applying a modest \namount of undersampling techniques to  the majority \nclass, will not only deal with the  class imbalance \nproblem but will also deal with  the problem of \ninformation being lost which is  observed in case of \nundersampling techniques.  So the combination of",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "8392fa9c542250c1"
+  },
+  {
+    "text": "information being lost which is  observed in case of \nundersampling techniques.  So the combination of \noversampling and undersampling is much more \neffective compared to only oversampling and \nundersampling techniques. \n \nC. Feature Selection \nAfter handling class imbalance problem , feature  \nselection is performed to reduce the redundant  and \nirrelevant features. Removing irrelevant features not \nonly decreases the time complexity  but also deals",
+    "source_document": "Paper.pdf",
+    "page_number": 2,
+    "chunk_id": "22f58486eaae884d"
+  },
+  {
+    "text": "International Journal of Management and Applied Science, ISSN: 2394-7926                          Volume-9, Issue-9, Sept.-2023 \nhttp://iraj.in \nCredit Risk Prediction Using Machine Learning Analytics: An Ensemble Model \n \n81 \nwith the overfitting problem of the  model. The \nproposed paper uses Boruta feature  selection \ntechnique to perform feature selection  as in most of \nthe cases features are selected by  setting some \nthreshold on the features. If the performance of the \nfeature is above or in some  cases below that set \nthreshold, then the feature is  kept else it is rejec ted. \nBut the problem arises  with this method is that the \nsetting of the threshold is done manually and hence \nthere is some arbitrariness to it. If the threshold is not",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "68ed2b5b46a3d4f8"
+  },
+  {
+    "text": "setting of the threshold is done manually and hence \nthere is some arbitrariness to it. If the threshold is not \nset properly then important features may get \neliminated, resulting in loss in informatio n and  \nthereby decrease in model performance. To overcome \nthis problem, Boruta feature selection  technique is \nused as it is statistically grounded  and works \nextremely well even without taking any specific input \nfrom the user. Boruta feature  selection technique is a \nwrapper method whose working is as follows: \nI. Boruta feature selection technique creates shadow \nfeatures by shuffling copies of all the features \npresent in the  dataset, which ultimately results in \nadding randomness to the dataset. \nII. Then, the ex tended data is used to train  the",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "daa52a87c9de16e8"
+  },
+  {
+    "text": "adding randomness to the dataset. \nII. Then, the ex tended data is used to train  the \nclassifier RF, which applies feature  importance \nmeasure using Mean Decrease Accuracy, to select \nimportant features. Higher the feature importance  \nmeasure means more important feature. \nIII. At every iteration it checks whether the maximum \nfeature importance of the shadow feature is less \nthan that of the  feature importance of real \nfeature and the features which are deemed as \nhighly unimportant are constantly dropped. \nFinally, when the algorithm reaches its specified  limit \nor when  all the features gets confirmed or  rejected, \nthe algorithm stops. \n \nD. Classification \nThe proposed model ESCRPET uses ensembling  \nbagging technique ET because single classifiers",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "d3c061baf3ec6736"
+  },
+  {
+    "text": "D. Classification \nThe proposed model ESCRPET uses ensembling  \nbagging technique ET because single classifiers  \ncannot handle bias and variance present in the  data \nthereby giving less accurac y during testing.  Bagging \nis a popular ensemble technique which  is also termed \nas bootstrap aggregation. It is basically a collection of \nseveral different subsets  of a predicted model. Each \nand every individual  model is trained and merged \nusing a standard  mean process. Also ensemble \nbagging technique ET harnesses the capabilities of de-\ncorrelated multiple Decision Trees (DT) which result \nin decrease in overfitting, variance and biasing of  the \nproposed model ESCRPET during classification task \nand hence improves the accuracy of the proposed",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "06059f3e29d5709e"
+  },
+  {
+    "text": "proposed model ESCRPET during classification task \nand hence improves the accuracy of the proposed \nmodel. Among bagging techniques ET is used as ET \nis faster,  computationally less expensive and gives \nmore accurate and better results. \n \nIV. RESULTS AND DISCUSSION \n \nThe results and discussion of the paperis divided  into \nthree sections. Section A discusses the performance \nof the ESCRPET model when compared with other \nsingle classifier models. Section B discusses the \ncomparison of ESCRPET model with other \nensemble models and lastly section C  consists of the \ncomparison of the performance of the proposed \nmodel, \u201eESCRPET\u201f with various models present in \nthe literature. The broadly explanations of these \nsections are explained as follows:-",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "9c8f492e70d16c45"
+  },
+  {
+    "text": "the literature. The broadly explanations of these \nsections are explained as follows:- \n \nA. ESCRPET performance and comparison with \nsingle classifier based models \nFirst the class  imbalance problem present in the  \ndataset is handled using the combination of \noversampling technique,\u201eSMOTE\u201f and undersampling \nTechnique, \u201eENN\u201f. After solving  the class imbalance \nissue, feature selection is performed. By performing \nfeature selection using Boruta, \"Sex\" and \"marriage\" \nare the two  attributes that have been found as \nredundant attributes for our model as if these \nattributes are  present while model training then the \nperformance of the model decreases. So these  \nattributes are dropped. The accuracy and F1 score of \nthe proposed model ESCRPET is then  calculated",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "13d5dea02a32eff2"
+  },
+  {
+    "text": "attributes are dropped. The accuracy and F1 score of \nthe proposed model ESCRPET is then  calculated \nusing 10-folds cross validation. The accuracy and F1-\nscore achieved by the proposed  model ESCRPET is \n93.87% and 95.06% respectively. To understand the \nsignificance of the proposed model its performance is \ncompared with single classifier models: Na\u00efve \nBayes(NB), Decision Tree(DT) and K-Nearest \nNeighbor(KNN) along with all the pre- processing \nsteps as mentioned for the proposed  model and is \nshown below in Table 1 and Fig.2: \n \n \nTable 1: ESCRPET performance and comparison with single \nclassifier based models \n \n \nFig. 2: Bar graph showing ESCRPET performance and \ncomparison with single classifier based models after feature \nselection",
+    "source_document": "Paper.pdf",
+    "page_number": 3,
+    "chunk_id": "421a8d04a6c0669e"
+  },
+  {
+    "text": "International Journal of Management and Applied Science, ISSN: 2394-7926                          Volume-9, Issue-9, Sept.-2023 \nhttp://iraj.in \nCredit Risk Prediction Using Machine Learning Analytics: An Ensemble Model \n \n82 \nFrom Table 1 and Fig.2 it can be observed clearly \nthat the proposed model ESCRPET greatly \noutperforms single-classifier models in terms of both \naccuracy and f1-score because single-classifier \nmodels cannot handle bias and variance present in the \ndata whereas the proposed model ESCRPET, using \nET, can easily  handle variance present in the data by \ncombining the prediction of multiple DT models and \ncan handle bias by using the combination of \noversampling technique SMOTE and undersampling \ntechnique ENN. \n \nB. ESCRPET performance and comparison with",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "4685cc348033bbbb"
+  },
+  {
+    "text": "oversampling technique SMOTE and undersampling \ntechnique ENN. \n \nB. ESCRPET performance and comparison with \nensemble models \nThe performance of the proposed model ESCRPET is \ncompared with ensemble models  Random Forest \n(RF), XGBoost (XBG) and AdaBoost (ADB) and \nshown in Table 2 and Fig.3 below: \n \n \nTable 2: ESCRPET performance and comparison with \nensemble models after feature selection \n \nThe proposed model ESCRPET is compared with the \nmodelsproposed by Turjo et. al.[2] and Alabi et al.[3]. \nAll the models are trained and  tested using the \nTaiwan dataset and the results  are shown below in \nTable 3: \n \n \nTable 3: Performance comparison of ESCRPET with models \npresent in literature \n \n \nFig. 3: Bar graph showing ESCRPET performance and",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "a47eb087e0749f19"
+  },
+  {
+    "text": "present in literature \n \n \nFig. 3: Bar graph showing ESCRPET performance and \ncomparison with ensemble models after feature selection \nFrom Table 2 and Fig.3, it can be observed clearly \nthat the proposed model ESCRPET greatly \noutperforms the ensemble models in terms of both \naccuracy and f1-score. This is because the boosting \nmodels like ADB and XGB  cannot deal with the \nvariance present in the dataset which in the proposed \nmodel ESCRPET  is handled by ET. Whereas, \nbagging ensemble RF, even though can deal with the \nvariance but  its performance falls  short when \ncompared to ET. This is because ET is much faster \nas instead  of looking for the optimal split at each \nnode it  does it randomly, ET keeps a higher \nperformance in presence of noisy features and",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "ae2d8f0537b37333"
+  },
+  {
+    "text": "node it  does it randomly, ET keeps a higher \nperformance in presence of noisy features and  \naggregates the results of multiple de -correlated \ndecision trees  collected in a  \u201cforest\u201d to make \nclassification which greatly decreases the problem of \nvariance as compared to other bagging techniques. \n \nC. Performance comparison of ESCRPET with \nmodels present in literature \nOn comparison of the proposed model ESCRPET \nwith Turjo et. al.[2] and Alabi et al.[3], it is observed \nfrom table 3 that the proposed model ESCRPET \ngreatly outperforms  the mentioned models. This is \nbecause none of  the comp ared models deals with \nclass imbalance problems and feature selection of the \ncompared models is not systematic as there is some \narbitrariness to them since some threshold is",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "3fe93ad7586a6255"
+  },
+  {
+    "text": "compared models is not systematic as there is some \narbitrariness to them since some threshold is \nmanually selected. Besides, other compared models \nare single-classifier based models. Hence, they \ncannot handle noisy and imbalanced  data and also \nsuffer from overfitting problem resulting in decrease \nin performance of the models. The proposed model \novercomes this by  using combination of \noversampling technique,\u201eSMOTE\u201f and undersampling \ntechnique \u201eENN\u201f for class imbalance problem, Boruta \nfeature selection technique for feature selection and \nensemble bagging technique ET for classification. \n \nV. CONCLUSION \n \nThis paper proposes a model ESCRPET where  credit \nrisk is predicted wit h the help of ensemble  classifier \ntechnique. The Taiwan dataset used is highly",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "98019cacd6f2de99"
+  },
+  {
+    "text": "risk is predicted wit h the help of ensemble  classifier \ntechnique. The Taiwan dataset used is highly \nimbalanced as there is a huge difference  between the \nmajority class samples and the minority class  \nsamples. This problem of class  imbalance is solved \nby using a combination of  oversampling \ntechnique,\u201eSMOTE\u201f and undersampling \ntechnique,\u201eENN\u201f. Feature selection technique Boruta \nis performed after solving the class imbalance issue. \nET bagging ensemble technique is used as it reduces \nvariance and is computationally less expensive.  To \nunderstand how better the proposed model ESCRPET \nperforms, its accuracy and F1 -scrore are compared \nwith other single -classifier based  models as well as \nensemble based models and  with various models",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "f01021577f247df8"
+  },
+  {
+    "text": "with other single -classifier based  models as well as \nensemble based models and  with various models \npresent in the literature. It is  observed that in all t he \ncases the proposed model  ESCRPET greatly \noutperforms other models and achieves an accuracy of",
+    "source_document": "Paper.pdf",
+    "page_number": 4,
+    "chunk_id": "3f2e4820d102fef3"
+  },
+  {
+    "text": "International Journal of Management and Applied Science, ISSN: 2394-7926                          Volume-9, Issue-9, Sept.-2023 \nhttp://iraj.in \nCredit Risk Prediction Using Machine Learning Analytics: An Ensemble Model \n \n83 \n93.87% and F1-score of 95.06%. Therefore, it can be \nconcluded that ESCRPET is a significant system for \npredicting credit risk.  The dataset used for  the \nexperiment is easily available, universally accepted, \nwell established and myriad researches have been \ndone on the same.The proposed  model ESCRPET \nuses SMOTE and ENN to deal with class imbalance \nproblem but in future various other class imbalance \ntreatment techniques like Gaussian SMOTE, SVM \nSMOTE, ADASYN etc canalso be used.  Different \nfeature selection techniques like Lasso Regularization",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "5e396004a14cbf3d"
+  },
+  {
+    "text": "SMOTE, ADASYN etc canalso be used.  Different \nfeature selection techniques like Lasso Regularization \n(L1), GA, ACO, PSO optimization etc. can be used \nand also different  types of machine learning models \ncan be used to get a better evaluation. \n \nREFERENCE \n \n[1] S. Dahiya, S.S. Handa, N.P. Singh, \u201cA feature selection\n enabled hybrid-bagging algorithm for credit risk \nevaluation,\u201d Expert Systems.2017;e12217, \nhttps://doi.org/10.1111/exsy.12217, 2017. \n[2] A.A. Turjo et. al., \u201cCRAM: A Credit Risk Assessment \nModel by Analyzing Different Machine Learning \nAlgorithms,\u201d 2021 4th International Conference on \nInformation and Communications Technology (ICOIACT), \n2021, DOI: 10.1109/ICOIACT53268.2021.9563995. \n[3] Alabi, K.O., Abdulsalam, S.O., Ogundokun,  R.O., Arowolo,",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "cfb0923ccac8aebd"
+  },
+  {
+    "text": "2021, DOI: 10.1109/ICOIACT53268.2021.9563995. \n[3] Alabi, K.O., Abdulsalam, S.O., Ogundokun,  R.O., Arowolo, \nM.O. (2021). Credit Risk Prediction in Commercial Bank \nUsing Chi- Square with SVM-RBF. In: Misra, S., \nMuhammad-Bello, B. (eds) Information and Communication \nTechnology and Applications. ICTA 2020. Communications \nin Computer and  Information Science, vol 1350. Springer, \nCham. https://doi.org/10.1007/978-3-030-69143-1_13. \n[4] P.M. Addo, D. Guegan, B. Hassani, \u201cCredit  Risk Analysis \nUsing Machine and Deep Learning Models,\u201d 2018. \n[5] Y-C Chang, K-H Chang, G-J Wu, \u201cApplication of eXtreme \ngradient boosting trees in the construction of credit risk \nassessment models for financial institutions,\u201d Applied Soft  \nComputing\n Journal, https://doi.org/10.1016/j.asoc.2018.09.029, 2018.",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "9f4ad81b2d89bda6"
+  },
+  {
+    "text": "Computing\n Journal, https://doi.org/10.1016/j.asoc.2018.09.029, 2018. \n[6] A. Lawi, F. Aziz, S. Syarif, \u201cEnsemble GradientBoost for \nincreasing classification accuracy of credit scoring,\u201d 4th \ninternational conference on computer applications and \ninformation processing technology (CAIPT), pp. 1-4,2017. \n[7] Y.Zhang, H.Jia, Y. Diao, M. Hai, H. Li, \u201cResearch on Credit \nScoring by fusing social media information in Online Peer-to-\nPeer Lending,\u201d DOI:10.1016/j.procs.2016.07.055, 2016. \n[8] Yufei Xia, Chuanzhe Liu, Nana Liu, \u201cCost - sensitive boosted \ntree for loan evaluation in peer-to-peer lending,\u201d Electronic \nCommerce Research and Applications, 2017, \nDOI:http://dx.doi.org/10.1016/j.elerap.2017.06.0 04. \n[9] Y. Jiang, Y. Chen, Z. Zeng, X. He, \u201cA Bank  Customer Credit",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "f72c4d7e3c1c0c12"
+  },
+  {
+    "text": "DOI:http://dx.doi.org/10.1016/j.elerap.2017.06.0 04. \n[9] Y. Jiang, Y. Chen, Z. Zeng, X. He, \u201cA Bank  Customer Credit \nEvaluation Based on the Decision Tree and the Simulated \nAnnealing \nAlgorithm,\u201d Computer and Information Technology, 2008. \n[10] V. Kumar L, Natarajan S, Keerthana S, Chinmayi K M, \nLakshmi N, \u201cCredit Risk Analysis in Peer-to-Peer Lending \nSystem,\u201d IEEE International Conference on Knowledge \nEngineering and Applications, 2016. \n[11] Y. Marinakis, M. Marinaki, C. Zopounidis,  \u201cApplication of \nAnt colony optimization to credit risk assessment,\u201d New \nMathematics and  Natural Computation,  Vol. 4, No. 1, pp. \n107- 122, 2008. \n[12] Y. Marinakis, M. Marinaki, M. Doumpos, C. Zopounidis, \n\u201cAnt colony and particle swarm  optimization for financial",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "9b8916114d6fb955"
+  },
+  {
+    "text": "[12] Y. Marinakis, M. Marinaki, M. Doumpos, C. Zopounidis, \n\u201cAnt colony and particle swarm  optimization for financial \nclassification problems,\u201d Expert Systems with Applications, \npp. 10604-10611, 2009. \n[13] N. Metawa, M.K. Hassan, M. Elhoseny, \u201cGenetic Algorithm \nBased Model for Optimizing Bank Lending Decisions,\u201d \nExpert Systems With Applications, 2017. \n[14] S. Oreski, G. Oreski, \u201cGenetic algorithm- based heuristic for \nfeature selection in credit risk  assessment,\u201d Expert Systems \nwith Applications, pp. 2052-2064, 2014. \n[15] A.A. Zaidan, B.B. Zaidan, F.O. Sameer, M.R. Abu Bakar, \n\u201cA new algorithm of modified  binary particle swarm \noptimization based on the  Gustafson-Kessel for credit risk \nassessment\u201d, The Natural Computing Applications Forum \n2017.",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "ba5b8f143db47dd5"
+  },
+  {
+    "text": "assessment\u201d, The Natural Computing Applications Forum \n2017. \n[16] D. Opitz, R. Maclin,  \u201cPopular Ensemble Methods: An \nEmpirical Study,\u201d Journal of Artificial Intelligence Research, \npp. 169-198, 1999. \n \n \n \n \n \n \n \n \n \n\uf0ab\uf0ab\uf0ab",
+    "source_document": "Paper.pdf",
+    "page_number": 5,
+    "chunk_id": "366e464b1bef1a0a"
+  },
+  {
+    "text": "Copyright \u00a9 2021 by Serena Connolly\nThe Oxford Handbook of Science and Medicine in the Classical World edited\nby Paul T. Keyser and John Scarborough\nNew York: Oxford University Press, 2018. Pp. xvi + 1045. ISBN 978\u20130\u201319\u201397\n3414\u20136. Cloth US $175.00\nReviewed by\nSerena Connolly\u2217\nRutgers, The State University of New Jersey\nserena@rutgers.edu\nThe volume under review is a recentaddition to the Oxford Handbooks\nseries, which\noffer[s] authoritative and up-to-date surveys oforiginal researchin a particular\nsubjectarea. Speciallycommissioned essays from leadingfiguresin the disci-\npline give criticalexaminations of the progress and direction ofdebates, as well\nas a foundation for future research. [dustcover]\nThis review is written from the standpointof someonefairlynewto the",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 1,
+    "chunk_id": "9617a1b6fad8e401"
+  },
+  {
+    "text": "as a foundation for future research. [dustcover]\nThis review is written from the standpointof someonefairlynewto the\nfields of ancient science and medicine, who teaches an undergraduate sur-\nvey of them and would liketo be broughtup to date onrecentdiscoveries,\ninterpretations, and approaches. Tothatend, this bookis afantasticresource\nand a majorachievement.And at justover 1,000 pages, there is alot in it:\nmuchthat readers might reasonablyanticipate, buta lot that they might\nnot. Thetitle suggests a broad scope\u2014science and medicinein the classical\nworld\u2014but we get considerably more.\nCore topics\u2014cosmology, astronomy, mathematics, geography, anatomy,\npathology, and pharmacy\u2014receive ample coverage. Butso dotopicsthat\nare less commonly treated in handbooks or overviews, such as harmonics,",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 1,
+    "chunk_id": "f30ef466f915315f"
+  },
+  {
+    "text": "are less commonly treated in handbooks or overviews, such as harmonics,\noptics, surgical tools, and physiognomy. Most strikingly, the volume opens\nwith fourgroups ofchapters treating Mesopotamian, Egyptian, Indian, and\nChinese science and medicine. The scholarship on Greek science and med-\nicine has often looked beyondtheGreek world to understand precursors\nandinfluence. Yethandbooks(oreven monographs) rarely look beyondthe\nancient Greek and Roman worlds for their own sake.\n\u2217 Serena Connolly is an associate professor of Classics at Rutgers, The State Uni-\nversity of New Jersey, where she teaches an undergraduate course \u201cScience and\nTechnology in Ancient Greece and Rome\u201d .",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 1,
+    "chunk_id": "0e3d971252bc8d58"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 249\nContributors to thevolume frequentlycite theEncyclopedia of Ancient Nat-\nural Scientists (EANS), of which Keyser is also an editor,1 and we might\nunderstandthis volumeto be a companionthatoffers context for the entries\nin EANS. It is, similarly, a collaborative effort: for this volume, Keyser and\nScarborough have gathered aninternational team of 44 contributors. The ed-\nitors are well-placedto have taken onthis project:Keyserhas also co-edited\nRoutledge\u2019sGreek Science of the Hellenistic Era: A Sourcebook [Irby-Massie\nand Keyser 2002 ], while Scarboroughis the contributor to, and editorof,\nmultiple volumes as well as a leading figure in ancient pharmacology and",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 2,
+    "chunk_id": "469f371bf9432e1f"
+  },
+  {
+    "text": "multiple volumes as well as a leading figure in ancient pharmacology and\nmedicine more generally. Theircontributors are a mixofestablishedfigures\nwith longrecords of research and up-and-coming scholars. The volume\nis also a naturalcompanion to The Oxford Handbook o f Engineering and\nTechnology in the Classical World, edited by John Peter Oleson [2009 ].\nKeyser and Scarborough have structured their volume around broad disci-\nplines or spheres of activity, much more so than theCompanion to Science,\nTechnology, and Medicine in Ancient Greece and Rome, edited by GeorgiaIrby\n[2016 ], whose60 chapters each have a narrower focus. While thetwo books\nhave much in common\u2014they are comparable in length and temporal cov-\nerage, and even share some contributors\u2014importantly, Irby\u2019sCompanion",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 2,
+    "chunk_id": "9a24d0411940d8c8"
+  },
+  {
+    "text": "erage, and even share some contributors\u2014importantly, Irby\u2019sCompanion\nalsoincludes chapters ontechnology.Keyserand Scarborough\u2019s inclusion of\nchapters on areas outside the classical world (notwithstanding Irby\u2019s chap-\nter 56) signal theirawareness of future directionsin the study ofclassical\nscience and medicine.\nKeyser\u2019s introduction sets up some helpfulparameters and guiding prin-\nciples for thevolume. It is here thatwe learn thevolume\u2019s chronological\ndivisions: excepting part A, in which the timespan for each contribution is\nlessfixed, science and medicine are considered from Homer throughad\n650, dividedinto four rough periods atwhatKeyser terms \u201cnatural joints\u201d\n[5]. Part B runs from Homer through Plato; part C, through the Hellenistic",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 2,
+    "chunk_id": "420b8d451fa69d80"
+  },
+  {
+    "text": "[5]. Part B runs from Homer through Plato; part C, through the Hellenistic\nperiod; partD, theGreco-Roman period; and partE, late antiquityand early\nByzantium.\nSince each chapteroffers a summaryof its topic\u2014and giventhat there are\n49 chapters, plus anintroduction\u2014I willsimplypick outhighlights ofeach.\nMostchapters includethefollowing elements: the majorsource material\nfor their topic, key players, ancientand modern approaches, and essential\nbibliography.\n1 SeeKeyser and Irby-Massie 2008.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 2,
+    "chunk_id": "d1054223c7cd19ff"
+  },
+  {
+    "text": "250 Serena Connolly\nPartA, \u201cAncientScientificTraditions beyond Greece and Rome\u201d ,contains\n10 essays on ancientscientific and medical traditions outsideGreece and\nRome. As Keyseracknowledgesin his introduction, these contextualizing\nessays on Mesopotamia, Egypt, India, and China are notcomprehensive,\nlargelybecause ofa lack ofcontributors. The gaps signalareasfor future\nscholarship. Otherparts of the world had sciencetoo, as Keyseracknow-\nledges; but their lack of texts, or the difficulty of working with them, made\ncomparable essays impossible.\nJens H\u00f8yrup\u2019s contribution, \u201cMesopotamian Mathematics\u201d , introducesthe\nkey themes of thevolume: thetension betweentheoryand practice; the\nimportance of scribal activity and textual transmission; and the social and",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 3,
+    "chunk_id": "29c13b4ccd5e8f99"
+  },
+  {
+    "text": "importance of scribal activity and textual transmission; and the social and\nculturalprestige of thetopic. The close of the essay,which problematizesthe\nGreekinheritance ofNearEastern mathematics, provides a usefulcorrective\nto often oversimplified and misleading presentations of intellectual inheri-\ntance. In \u201cAstralSciences ofAncientMesopotamia\u201d ,Francesca Rochberg\npoints out thatastronomy and astrology were notdistinguished as a sci-\nence and a pseudo-science, a theme picked up several times later in the\nvolume. There are helpful summaries of key compendia, includingEn\u016bma\nAnu Enlil andMUL.APIN, and here, as elsewhere, mathematics is empha-\nsized as a key underpinning ofothersciences. JoAnn Scurlock\u2019s livelyes-\nsay, \u201cMesopotamian BeginningsforGreek Science?\u201d , focuses on medical",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 3,
+    "chunk_id": "db4628f98a675492"
+  },
+  {
+    "text": "say, \u201cMesopotamian BeginningsforGreek Science?\u201d , focuses on medical\npractitioners and remedies. In rationalizing and psychologizing the role of\nmagicalpractices as partof healing, she arguesthatMesopotamian heal-\ning was more rationaland effective thanGreek. Scurlock also discusses\nthe Greco-Babyloniaca: texts in Akkadian that usedthe Greek alphabet\nto give Greek-language scholars accessto Akkadianliteraryand scientific\ntexts andthat reflectsignificantculturalencounters betweentheGreek and\nMesopotamian worlds.\nMovingto Egypt,Annette Imhausen\u2019s \u201cMathematicsin Egypt\u201d ,which em-\nphasizestextual transmission and our lack ofsources, includesthe sobering\nstatistic that \u201conlysix chancefinds of mathematical texts have survived\u201d",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 3,
+    "chunk_id": "f13640b1e0e2e4a0"
+  },
+  {
+    "text": "statistic that \u201conlysix chancefinds of mathematical texts have survived\u201d\n[54]. This essay is a model of clarity; her explanation of Egyptian fractions\n[51\u201352] i s admirably lucid. Joachim FriedrichQuack\u2019s \u201cAstronomy in An-\ncientEgypt\u201dsurveys star-clocks, theBook of Nut, and simple formulaefor\ncalculation. Quack occasionally looksforward in time to the Greco-Roman\nperiod and helpfullyanticipates thelaterchapters of thevolume. In her\nsurvey ofEgyptian medicine, RosemaryDavid emphasizes currentandre-\ncent research. She arguesfora greaterpresence of rationalelements than\nirrational, citing preliminary findings from the University of Manchester\u2019s",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 3,
+    "chunk_id": "60402671dd894420"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 251\nPharmacy in AncientEgyptproject. In along section on sources, she sur-\nveys the possibilities offered by physical remains, as wellastheircurrent\nlimitations.\nMuch of the material on Mesopotamia and Egypt is well known to experts\non theGreek and Roman side. But India and China willbe lessfamiliar,\nandthe essays that follow are a realboonto allclassicists, pointing usto\npossibilitiesforcomparative work and alerting usto a multiplicityofancient\nsciences and medicines.\nTokeLindegaard Knudsen\u2019s accessible \u201cMathematicsin India until 650CE\u201d\npicks out justafew elements of interest, includinglarge numbers, the place-\nvalue decimalsystem, Indians\u2019 use of the PythagoreanTheorem, and Pas-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 4,
+    "chunk_id": "eb7f12d5363e1ce9"
+  },
+  {
+    "text": "value decimalsystem, Indians\u2019 use of the PythagoreanTheorem, and Pas-\ncal\u2019s Triangle. While classicists should avoid thetemptation to approach\nscience and medicine outsidethe ancientMediterranean by lookingfor rel-\native chronologiesin discovery,Knudsen does provide details forancient\ntexts (andtranslations) thatwillhelp classicists track contemporarymodes\nof thought. \u201cSanskritMedical Literature\u201d by Tsutomu Yamashita takes a\nsource-based approachto arguethat rationalmedicine originatedin irra-\ntional religious texts. In the final section, Yamashita provides a careful and\nlucid introductionto physiology and pathology and points up the distorting\ntendency among scholars to fit\u0100yurvedictheoriesto those ofGreek sources.\nMovingto China, we are made aware ofan enormous and complexscholarly",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 4,
+    "chunk_id": "0d49f2a02bd96d84"
+  },
+  {
+    "text": "Movingto China, we are made aware ofan enormous and complexscholarly\ntradition. In\u201cAncientChinese Mathematics\u201d ,Alexei Volkovsupplies specific\nexamples ofproblems that interested Chinese mathematicians, including\nthe\u201cremainder theorem\u201d and calculations ofpi andthevolume ofa sphere.\nAccording to Xu Fengxian\u2019s \u201cAstral Sciences inAncient China\u201d , there were\ntwo drivingforces: calendar-making and astrology. Fengxian\u2019s discussion\nof how the Chinese conceptualized and observed the structure of the heav-\nens(with 28 constellations orxiu) reminds usthatcore conceptualizing\nframeworks, such as the zodiac, are not inevitable.\nThese opening contributions give a sense ofuniversal themes, which are\nhelpful for theinstructor tryingto guide undergraduate students away from",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 4,
+    "chunk_id": "e0b11a283a9e686a"
+  },
+  {
+    "text": "helpful for theinstructor tryingto guide undergraduate students away from\nnotions ofGreece and Rome being specialordifferent. The essays on Egypt\nand Mesopotamia attendtoinfluences on and between peoples, anditwould\nhave been helpful to have some discussion on external influences\u2014or the\nlack of them\u2014onIndian and Chinese science and medicine(forexample,\nthe influence of Hellenistic texts on Indian astronomy).",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 4,
+    "chunk_id": "f835b1ad0ebab688"
+  },
+  {
+    "text": "252 Serena Connolly\nPartB, \u201cEarlyGreek Science\u201d , takes usfrom Homer to Plato in fourchapters.\nIn \u201cPythagoras and Plato\u201d ,AndrewGregory takes a biographicalapproach\u2014\nthe essays in the volume arrangetheirmaterialbiographically, topically,\nchronologically,and around key texts\u2014to explore earlyGreektreatments\nofa few topics. Otherchapters, too, willbe selective, favoring depth over\ncoverage. I nvestigation is a key theme of Gregory\u2019s chapter,andindeed\napproach\u2014theoreticalvs empiricist\u2014is important in thevolume overall.\nMention of Philolausis welcome; his pyrocentric modelof the universe\ncan be presentedto students alongside Aristarchus\u2019 heliocentric modelas\nalternatives to the dominant geocentrism.\nLeonid Zhmud\u2019s \u201cEarlyMathematics andAstronomy\u201d is a dense chapter.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 5,
+    "chunk_id": "0dacdba5a385a550"
+  },
+  {
+    "text": "alternatives to the dominant geocentrism.\nLeonid Zhmud\u2019s \u201cEarlyMathematics andAstronomy\u201d is a dense chapter.\nWelearn thatcompetition existed among earlyGreek scientists\u2014givingrise\nto proofs as evidence ofexcellence\u2014butemphasis on\u201cfirsts\u201d comeslater\nfrom Eudemus of Rhodes, who exerted enormousinfluence ontheform\nandfocus of the historyof Greek science. Theterminology employed in\nthis chaptercould have been clearer: \u201castronomy\u201d is notclearlydefined,\nandmathemata, a term usedthroughout the chapter, is notdefined until\nthefinalsection. Zhmud\u2019s clearexplanations of various mathematicians\u2019\nattempts to square a circle are valuable.\nIn \u201cEarlyGreekGeography\u201d ,Philip G. Kaplan surveys Homer\u2019s and Hes-\niod\u2019s approachesto spacethrough earlycosmogonies and genealogies, and",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 5,
+    "chunk_id": "983e9a51e87ab428"
+  },
+  {
+    "text": "iod\u2019s approachesto spacethrough earlycosmogonies and genealogies, and\ntracesthe shift in Greeks\u2019 conceptions of spacefrom itinerary-basedto\ncartographic, as apparent in Herodotus. Kaplan presents Herodotus as a\ngeographical innovatorwho describes distance using units ofmeasurement,\nnot time (stadesvs days\u2019 walk). This section of the chapter is especiallyhelp-\nful to graduate students, providingthem with anothercontext in whichto\nthink about a writer otherwise approached as a historian.\n\u201cHippocrates and EarlyGreek Medicine\u201d by Elizabeth Clark contains a broad\nintroductionto the Hippocratic Corpus and earlymedical thought.Clark\nalso brieflyconsiders similarities between\u0100yurvedic medicine and early\nGreek medicine, and raises the possibility of the movement of ideas, along",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 5,
+    "chunk_id": "9d89957c18377ff2"
+  },
+  {
+    "text": "Greek medicine, and raises the possibility of the movement of ideas, along\nwith people and goods, especiallyaroundthe Black Sea. She notes that\nGreek mechanical views of the body (as containing fluids that might need\nto be unblocked when gatheredin excessin one place) are alsoidentifiedin\ncontemporary Chinese medicine.\nMoving to PartC, \u201c Hellenistic Greek Science\u201d ,whichreceives the most\nattention ofany period(16 essays), we pick up withAristotle, whomJoachim\nAlthoffsuggests we should regard as a scientist firstand philosophersecond.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 5,
+    "chunk_id": "0c69aaef483426da"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 253\nHis \u201cAristotle, theInventorof NaturalScience\u201d is a well-written chapter\nthatdoes an admirable job of connectingAristotle\u2019s key areas of inquiry\nand approaches. Little is said aboutAristotle\u2019s intellectualcontext, though\nAlthoffstressesAristotle\u2019s toweringinfluence onthe Hellenistic period(and\nlater). TeunTieleman\u2019s briefessay \u201cEpicurus and His Circle\u201d can beregarded\nas something ofa companion piecethatsimilarly treats Epicurus and his\nsuccessors.\nFabioAcerbi\u2019s \u201cHellenistic Mathematics\u201d is one of the most imaginatively\npresented essays in the volume. He opens with anintriguing section on\nthe stylistics of mathematicalwriting(which mightbe a nice additionto",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 6,
+    "chunk_id": "358f7fd9fb7b6cd8"
+  },
+  {
+    "text": "the stylistics of mathematicalwriting(which mightbe a nice additionto\ngraduate-levelcourses onGreek prose style). Acerbi summarizes Hellenistic\nmathematics\u2014no mean feat\u2014by characterizing it as concerned with lines,\nandthen goes onto define thosevariouslines andto sketchvariousindi-\nviduals\u2019 concern with them. The survey is highly technical and condensed,\nbutoffers a neatapproachto whatmightotherwise have been along and\nunwieldy section. Acerbi helpfullypoints out that the notion of a collec-\ntive endeavor to solve the classic three problems (duplication of the cube,\nsquaring of the circle, andtrisection ofan angle) has arisenfrom succeed-\ningtraditions ofcommentaryand compilationthathave downplayedthe\nbreadth and independence of mathematicians\u2019 work.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 6,
+    "chunk_id": "715f602cfd04468b"
+  },
+  {
+    "text": "ingtraditions ofcommentaryand compilationthathave downplayedthe\nbreadth and independence of mathematicians\u2019 work.\nIn \u201cHellenistic Astronomy\u201d ,Alan C. Bowen surveys ancientconceptions of\nastrologia, orwork onthe heavens(which encompasses modern astronomy\nand astrology). He stressesthe needto acknowledgethe literarynature\nof Hellenistic astronomical texts, of the \u201cfacts\u201d chosen and presented to\nsupport theirauthor\u2019s literary intent.ForBowen, the Hellenistic period\u2019s\nmain contribution toastrologia lies in its establishment of a framework for\nthe work that is to follow.\nDuane Roller\u2019s \u201cHellenistic Geography from Ephorus through Strabo\u201d is a\nmasterlyandfascinating survey of the developmentofgeography as a disci-\npline. Roller points out that Polybius viewed himself more as an \u201cexplorer\u201d",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 6,
+    "chunk_id": "b87a1c9ca993514d"
+  },
+  {
+    "text": "pline. Roller points out that Polybius viewed himself more as an \u201cexplorer\u201d\nthan a historian (another usefulcorrective, to set aside that concerning\nHerodotus). It is goodto see mention ofHestiaia ofAlexandria, who wrote\non topography [330].\nT. E. Rihll\u2019s essay on\u201cMechanics and Pneumaticsin the ClassicalWorld\u201d ,a\ntour de force, marks animportantshift in thevolume, to theimmediately\npractical and sometimes utilitarian. But as Rihll notes, \u201cAcademic subjects\nandthe world of work were less separated in antiquity thanthey are to-\nday\u201d [339]. Despite thereputation ofGreeks and Romansforengineering,",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 6,
+    "chunk_id": "e95ded25f96d30aa"
+  },
+  {
+    "text": "254 Serena Connolly\nRihllpoints out that the erroneous notion of \u201cnaturalmotion\u201d ,deriving\nfrom Aristotle, hampered progressin mechanicsformany centuries, though\npracticalapplications of the mechanics of moving objects were notalto-\ngetherstymied. Rihllmatches descriptions ofcatapults and othermachines\nwith archaeological finds, arguing against labeling devices not immediately\nrealizable as\u201carmchairdevices\u201d and notingthat the gap between written\nexplanations andfinalexecution has always existed. This chapter,which\nis more accessible than mostbecause of thefamiliarityofso many of the\ndevices being described, could be assigned to a senior undergraduate inter-\nestedin thetopic. There is also a survey ofancient theoreticalexplanations",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 7,
+    "chunk_id": "16ddc9b45d24aae1"
+  },
+  {
+    "text": "estedin thetopic. There is also a survey ofancient theoreticalexplanations\nformachines, many ofwhich were unsuccessful\u2014a nice counterpoint to\nthe positive impression ofancientmechanicalunderstanding given by the\narchaeological record.\nFabio S tok\u2019s \u201cMedical Sects\u201d surveys and carefullydifferentiates Hero-\nphileans, Erasistrateans, and Empiricists, stressingthe developmentof their\napproaches over time. This essay nicelyanticipatesthatof Lauren Caldwell\nlater in the volume.\nGlen M. Cooper\u2019s chapter, \u201cAstrology (The Science ofSignsin the Heavens)\u201d\nprovides anintroduction to its subject. There is a significant section on\nskepticism (along with astrologers\u2019 rejoinders), and a briefbut fascinating\nsection on Christianity\u2019s uneasy butsometimes accommodatingrelationship",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 7,
+    "chunk_id": "861f8b2703373ef0"
+  },
+  {
+    "text": "section on Christianity\u2019s uneasy butsometimes accommodatingrelationship\nwith astrology. The essay closes with an analysis of Hadrian\u2019s horoscope, a\nneatway to explain facets ofprediction andto introduce key explanatory\ntexts (and their contradictions), including Ptolemy\u2019s.\nIn \u201cThe LongueDur\u00e9e of Alchemy\u201d ,Paul Keyser defines his subject as\nthe \u201cscience of materials\u201d [409], a definition which he acknowledges as\nbroad, and which enables consideration ofalchemy both as a precursor to\nchemistryand also as a philosophicallydriven setofpracticaland spiritual\npractices. Claiming the former as alchemy\u2019s primary goal through the Hel-\nlenistic period, Keyser focuses on work with pigments and metals. Readers\nwill benefit from his explanation that modern categories based on physical",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 7,
+    "chunk_id": "8b18679366063c3b"
+  },
+  {
+    "text": "will benefit from his explanation that modern categories based on physical\nproperties (e.g., metalsvs minerals) did not exist in the ancient world\nKlaus Geus and Colin Guthrie King\u2019s chapter, \u201cParadoxography\u201d , is a fasci-\nnating surveyofGreek andLatin accounts ofphenomena considered outside\nwhat is normalorexpected. Paradoxographicalaccounts ofphenomenarely\nontheirsourcesforcredibility,not thejudgmentof theircollector.As such,\nthey demonstrate the broad point thatancientepistemologicalpremises dif-\nfer from those of today. The chapter exemplifies the volume\u2019s emphasis on",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 7,
+    "chunk_id": "8e74548401167f52"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 255\nthe otherness of ancient science and medicine, and its concern to consider\nancient areas of interest according to their ancient definitions and goals.\nThe inclusion of the chapter \u201cMusic and Harmonic Theory\u201d is likewise in\nkeeping with the editors\u2019 concern to conform to ancientdefinitions and con-\nceptualizations. This a highly technicalchapter,onethat is hard to penetrate\nwithoutsomefamiliaritywith music theory.Stefan Hagelhelpfully reviews\nAristoxenus\u2019 main achievements, including his attempts to reconcile musi-\ncians\u2019 and mathematicians\u2019 ratios, as wellas Ptolemy\u2019s attempts to dothe\nsame, which were apparently tootechnicalordifficult to be picked up by\neither fellow theorists or musicians.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 8,
+    "chunk_id": "37a40c99b4d61ab9"
+  },
+  {
+    "text": "same, which were apparently tootechnicalordifficult to be picked up by\neither fellow theorists or musicians.\nPhilip Thibodeau\u2019s chapter, \u201cAncient Agronomy as a Literature of Best\nPractices\u201d ,marks a significant shift for the volume. His focusis not on\narchaeologicalevidence butontexts thatcommunicate the mosteconomi-\ncally beneficial practices and share marvels of farming. This chapter might\nsitmore obviously in avolume on ancient technology, thoughThibodeau\npoints out thatsome agronomers organizedtheirmaterialaroundthe calen-\ndarand basic astronomicalobservations, and, as Keyserpoints out in the\nintroduction, the editors have used a broad definition of science.\n\u201cOptics andVision\u201d raisestheintriguing question, What is vision? In this",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 8,
+    "chunk_id": "0f41b803916a25ae"
+  },
+  {
+    "text": "\u201cOptics andVision\u201d raisestheintriguing question, What is vision? In this\nchapter,Colin Webster tracksthevarious ancientdefinitionsthatcameinto\nvogue andtheirproponents. Mostof the names are ones alreadyencountered\nin thevolume, and Websterbrieflyconnects their thoughts onvisionto their\nwiderconcerns with issues ofmatter,perception, astronomy,and geometry.\n\u201cPharmacology in the EarlyRoman Empire: Dioscorides and his Multi-\ncultural Leanings\u201d is a compelling chapter. In it, John Scarborough has\narranged his materialby simples, which he has chosento reflectboth the\ncontemporaryempire in whichDioscorides worked andtraveled, with its\nvaried geography andflora, andthe historyofpharmacology. There is plenty\nin this chapter for theinstructor: information on pharmaceuticaluses ofsil-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 8,
+    "chunk_id": "55a6466f941ace1a"
+  },
+  {
+    "text": "in this chapter for theinstructor: information on pharmaceuticaluses ofsil-\nphium, castoreum, and sea urchins, as wellas poisons and narcotics. While\nauthors ofotherchapters have triedto avoid applying modern definitions\norexplanationslest they seemto be makingjudgments from a modern sen-\nsibilityorknowledge, Scarborough does supplymodern explanationsfor\nancient remedies which help the reader to understand better that remedies\nwere often theresultof empiricism. Scarborough\u2019s description of Pliny\u2019s\nNatural History [520\u2013521] is delightful.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 8,
+    "chunk_id": "182d82ea2f5747cd"
+  },
+  {
+    "text": "256 Serena Connolly\nA chapterdevotedto dietetics, \u201cDietetics: Regimen for Life and Health\u201d , is a\nwelcome surprise, opening with a nodto theimportance ofexperimentalar-\nchaeology to some scholars ofancient food and diet.Mostcompellingin this\nchapter is Mark Grant\u2019s survey ofancientunderstandingregardingfood\u2019s\ninteraction withthe body,e.g., in digestion andin curesformadness; he sets\nout the connections between qualities (hot, dry, cold, moist) and the foods\nthat were believed able to correct the imbalance that had caused illness.\n\u201cGreco-Roman Surgical Instruments: The Tools of the Trade\u201d , with its inter-\nest in archaeology, follows neatly from the previous chapter. LawrenceJ.\nBliquez organizes some of his materialby tooland notes the consistency",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 9,
+    "chunk_id": "784c722b93a8c5c4"
+  },
+  {
+    "text": "Bliquez organizes some of his materialby tooland notes the consistency\nbetween archaeological finds and written descriptions of instruments.\nMovingto PartD, \u201cGreco-Roman Science\u201d ,and Philip Thibodeau\u2019s \u201cTradi-\ntionalism and Originality in Roman Science\u201d , we might ask whether there\nwas such athing as Roman science. Thibodeau answers by definingitas\nscience writtenin Latin andidentifying some of its achievements. Those\nare often hard to recognize because Romanslikedto placethemselves in\ntraditions and credit discoveries to early figures, notably Numa Pompilius\nand Pythagoras, rather than single themselves outas originators orsignifi-\ncantdevelopers. Thibodeau surveys suchfigures asthe ElderCato, Nigidius\nFigulus, and Varro.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 9,
+    "chunk_id": "561d6116ad9c0ebb"
+  },
+  {
+    "text": "cantdevelopers. Thibodeau surveys suchfigures asthe ElderCato, Nigidius\nFigulus, and Varro.\nBy invoking Pythagoras, Roman scientists acknowledgetheirdebt to the\nGreeks, a theme picked up by Pamela Gordonin \u201cScienceforHappiness:\nEpicureanism in Rome, the BayofNaples, and Beyond\u201d .Gordon exploresthe\nextent to whichLucretius, Philodemus, and others developed Epicureanism,\nin a broad survey thatbringstogether medicine, physics, and evolution.\nThis essay reflects well the scope of the volume, encompassing theory and\nphilosophers alongside physical evidence and practitioners.\nLauren Caldwellpicks up on Stok\u2019s earlieressay in her \u201cRoman Medical\nSects: The Asclepiadeans, the Methodists, and the Pneumatists\u201d . She offers\na sketch of the sects andtheirkey positions orapproaches, acknowledg-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 9,
+    "chunk_id": "a5c74dc1fe002356"
+  },
+  {
+    "text": "a sketch of the sects andtheirkey positions orapproaches, acknowledg-\ningthe problem ofscholars\u2019 necessaryover-reliance on one source: Galen.\nHighlights of this chapter include Caldwell\u2019s overview ofwhatEmpiricist\nand Methodist doctors might offer patients\u2014carefully considered plans of\ntreatment from the former,efficiency andvalue for money from the lat-\nter\u2014and herconsideration of medicaleducation(thefirstchapter in the\nvolume to do so). She also exploresthe extent to which doctors consciously",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 9,
+    "chunk_id": "5292b3f1007834fa"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 257\nadhered to a sectand how united those sects were. This is a lucid, well-\nwritten, and highly readable chapter thatbringstogetherscholarship and\ncarefully chosen ancient sources, such as Aelius Aristides\u2019Sacred Tales.\nIn \u201cScience and Medicine in the Roman Encyclopedists: Patronagefor\nPraxis\u201d , Mary Beagon tackles the importance of polymathy for ancient sci-\nentists. In her treatment of Vitruvius, Beagon identifies a \u201cRoman holistic\nattitude to learning, whereby human need, utility, and aesthetics make the\nstudy ofnature more thantheliteralsum of its elementalparts\u201d [666]. Her\ndiscussion of Pliny works towards a definition of a Roman approach to sci-\nence, with its emphasis on practicality,utilitarianism (in supportofprofit),",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 10,
+    "chunk_id": "35d25b8e86e2ad5d"
+  },
+  {
+    "text": "ence, with its emphasis on practicality,utilitarianism (in supportofprofit),\npersonalauthority,and a\u201cmedico-magico-religious\u201d approachfrom a Ro-\nman traditionthatcan be setalongsidetheGreektradition[673]. Added\nto that is the Roman attitudetowards knowledge as a corollary to power,\nwhich is exemplified in the encyclopedists.\nTeunTieleman\u2019s \u201cStoicism andthe NaturalWorld: Philosophy and Science\u201d\nfocuses more on philosophy than on science, though a highlight is his dis-\ncussion of Stoic responses to developments in medical thought.\nJohn Scarborough\u2019s \u201cScriboniusLargus and Friends\u201d is the companionto\nhis earlierchapteron Dioscorides. Accordingto Scarborough, the precision\nand complexity of Largus\u2019 recipes for remedies ensured that they would be-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 10,
+    "chunk_id": "9ec97c106110baab"
+  },
+  {
+    "text": "and complexity of Largus\u2019 recipes for remedies ensured that they would be-\ncome neglected, in contrast to Dioscorides\u2019 farsimpler text. (Scarborough\u2019s\nacknowledgment of the importance of the reader complements Caldwell\u2019s\nearlierdiscussion ofpatientexperience.) In addition, as Scarborough notes,\nGalenfavoredDioscorides. Scarborough analyzes one ofScribonius\u2019 recipes,\ncarefullypresenting howitwas(and was not)efficacious\u2014a powerfulex-\nample of Scarborough\u2019s training in pharmacy and history. The final section\nof the chapter,which describesthe effects wroughtby therecipe (including,\nalarmingly,kidney poisoning) is a salutary reminderofwhat the capabilities\nof ancient medicine were.\nIn \u201cDistilling Nature\u2019s Secrets: The Sacred Artof Alchemy\u201d ,Kyle Fraser",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 10,
+    "chunk_id": "90eb70a770a4695e"
+  },
+  {
+    "text": "of ancient medicine were.\nIn \u201cDistilling Nature\u2019s Secrets: The Sacred Artof Alchemy\u201d ,Kyle Fraser\nrevisits the historyofalchemy in order to correctand complicate Festugi\u00e8re\u2019s\ninfluentialclaim thatalchemy becameless scientific and more mysticalover\nthe centuries. The section on Maria, afigure often mentioned only in passing,\nis a significantcontribution. Presented usuallyas a designerofapparatus,\nMaria developed herkerotakis, a sealed stillusedto collectheated gases,\nwith the goal of transmutating a base metal by complete transformation of\nall its properties.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 10,
+    "chunk_id": "53f831ac17ee5e43"
+  },
+  {
+    "text": "258 Serena Connolly\nMariskaLeunissen\u2019s \u201cPhysiognomy\u201d is an excellentadditionto thevolume.\nThough no longer a modern science, thanks especially to its notorious em-\nployment inthe early 20th century,physiognomynevertheless has along and\nimportanthistory.As Leunissen points out,Greek and Roman philosophers\nused the body to understand character, while physicians used character to\nunderstand the body.\nGalen has appeared throughout the volume thusfar,but Ian Johnston\u2019s\n\u201cGalen and His System of Medicine\u201d is devoted entirely to him. Galen\u2019s\npredecessors are identified as chieflyHippocrates and Plato. The chapter\nemphasizes his philosophical training and interests as an intentional basis\nfor thinking about methods of diagnosis. He wrote on philosophical topics,",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 11,
+    "chunk_id": "8d073fe0998af747"
+  },
+  {
+    "text": "for thinking about methods of diagnosis. He wrote on philosophical topics,\nan aspectofhis work that this volume could have overlooked buthappily\ndid not. There are excellentaccounts ofGalen\u2019s positions on, forexample,\nelementalvs atomisticviews ofanatomy and his classifications ofdisease. At\nthe close of the chapter, Johnston sets outhis listofanswers to the question,\n\u201cWhat relevance doesthe study ofGalen have today?\u201d This should be a go-to\nlist for anyone teaching a course on ancient science or medicine.\nJames Evans\u2019 chapter is an elegant introductionto the wide-ranging work\nofPtolemy.A standout from this long chapter is the discussion ofPtolemy\u2019s\nclaim that the Earth cannotbe moving becauseitems throwninto the air\ndo not continue to move along with it\u2014a helpful example of ancient expla-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 11,
+    "chunk_id": "241c0a79dc6fbcc2"
+  },
+  {
+    "text": "do not continue to move along with it\u2014a helpful example of ancient expla-\nnationsforwhatwe understand as Earth\u2019s gravitationalpull. The section\non Ptolemy\u2019s geography provides an example ofone of the strengths of this\nvolume: Evans\u2019 discussion, focused on cartography, is oriented quite differ-\nently from that ofDuane Roller, which focuses on explorers and historical\nwriters. (Compare also Evans\u2019 discussion of refraction with thatof Colin\nWebster,and his lesstechnical treatmentofharmonics with Hagel\u2019s.) The\nclosing sectionis one of the most important in thevolume, raisingtheissue\nof instrumentalistvs realist approaches to science among the ancients.\nPaul Keyser\u2019s \u201cScience in the 2nd and 3rd Centuries CE: An Aporetic Age\u201d ,\nwhich closesthis partof the volume, helpfullyputs Ptolemy andGalen",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 11,
+    "chunk_id": "777fc6a19b0217c8"
+  },
+  {
+    "text": "which closesthis partof the volume, helpfullyputs Ptolemy andGalen\nin contextand affordstheircontemporaries some attention. Accordingto\nKeyser, there arethree characteristics ofscience writingin this period: adora-\ntion of the past,atendency to produce compendia orsummariesrather than\nwhollyoriginalwork, andthe cultural importance ofclaiming wideintellec-\ntualauthority,allofwhich willbe important in thelastpartof thevolume.\nIn PartE, \u201cLateAntique and EarlyByzantine Science\u201d , thevolume continues\nthroughthe sixth centuryad. This editorialdecision was made, perhaps, in",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 11,
+    "chunk_id": "8deed623ad9f9340"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 259\nthe spiritof inclusivity,andI hope classicists willpay itdue attention. They\nshould certainly read \u201cPlotinus and Neoplatonism\u201d , for as Lucas Siorvanes\nreminds us, Neoplatonist texts make up about 58% ofallextantGreek philo-\nsophical texts. With scholars increasingly relabelingthosetexts as simply\nPlatonist,perhapsfamiliaritywith them will increase. Theimportance of\n(Neo)platonism is underlinedin the closing summaryof its influence on\nlater scientists, most notably Kepler.\nThe briefand clearlydemarcated sections ofAlain Bernard\u2019s \u201cGreek Mathe-\nmatics andAstronomy in Late Antiquity\u201dare a goodfit fora handbook and\nmake his arguments easy to find andfollow. Unlike mostotherchapters,",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 12,
+    "chunk_id": "dde940fb0a58f0e6"
+  },
+  {
+    "text": "make his arguments easy to find andfollow. Unlike mostotherchapters,\nBernard emphasizes his subject\u2019s socialandintellectualcontexts, which are\nfardifferent from thosein previous parts of thevolume; forexample, mathe-\nmatics\u2019 newly increasedimportancetolate antique philosophy would justify\nits importancein thefuture. Commentaries are emphasized, asindeedthey\nare throughtheremaining chapters, as gatekeepers for the mathematical\ntradition and venues for new ideas.\nCommentaries are thefocus ofMichaelGriffin\u2019s \u201cGreek NeoplatonistCom-\nmentators on Aristotle\u201d .Griffin emphasizesthe originalityof late antique\ncommentators on Aristotle, who were concerned with reconciling those of\nhis texts thatare in contradiction and picking outsharedideas. They also",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 12,
+    "chunk_id": "7a6e8c01a090d5c1"
+  },
+  {
+    "text": "his texts thatare in contradiction and picking outsharedideas. They also\nrefinedAristotelianthoughtand approaches. Griffin suppliesthe example of\nPhiloponus, who developsAristotle\u2019s notion that a javelin thrower imparts\nmovement to the air that then propels thejavelin; Philoponus posits that\nthe thrower is giving force to the javelin.\nIn \u201cByzantineGeography\u201d ,Andreas Kuelzer reminds usthat information\nwas drawn not only from older Greek authorities, most notably Strabo and\nPtolemy,butalsofrom texts from Nisibis andfrom Jewish and Christiantexts\nof thethird centuryandlater\u2014a salutary reminderof the strands of thought\nthat should stand alongside the more familiar (to us) texts of Ptolemyet al.\nEspeciallyhelpful in this connectionis Kuelzer\u2019s discussion of Christian",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 12,
+    "chunk_id": "308b078daecf94dd"
+  },
+  {
+    "text": "Especiallyhelpful in this connectionis Kuelzer\u2019s discussion of Christian\nopposition to notions of the Earth and universe as spherical.\nIn \u201cByzantineAlchemy,or the Era ofSystematization\u201d , thefocusreturnsto\ncommentaries and collections andthe processes ofcompiling and editing.\nA notable feature of Cristina Viano\u2019s chapter is the section on material\nevidence for alchemy, including the black patina on some statues that may\nbe thefamed\u201cblack bronze\u201d ofsome alchemical recipes, andtheremains\nof gold mining sites at Samut in Egypt. Here, the emphasis on the practical\nwork of alchemy nicely echoes Keyser\u2019s earlier chapter.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 12,
+    "chunk_id": "dfa2f282e2beb071"
+  },
+  {
+    "text": "260 Serena Connolly\nSvetla Slaveva-Griffin describes a new areafor researchin her \u201cByzantine\nMedical Encyclopedias and Education\u201d . These encyclopedias are little men-\ntioned in regular scholarly surveys of the period, but medical practitioners\nand medicalhistorians are drawing attentiontotheirsignificance, especially\nas syntheses that were of immediate use to medical practitioners.\nIn \u201cLate EncyclopedicApproachesto Knowledgein Latin Literature\u201d ,David\nPanagua surveys those worksin Latin, from thethird centuryad to Isidore,\nthatpresentomne scibile, everything knowable, such asLuciusAmpelius\u2019\nLiber memorialis. But what is worth knowing? The example of Augustine\u2019s\nabandonmentofsecular learning asincompatible with Christian education",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 13,
+    "chunk_id": "409a99b73e8a6511"
+  },
+  {
+    "text": "abandonmentofsecular learning asincompatible with Christian education\nhighlights one of the myriadthreats to thelater transmission of ancient\nscience. Yet Cassiodorus\u2019 educationalprogram provides an encouraging\ncounterpoint.\nLouise Cilliers\u2019 \u201cMedicalWritingin theLate Roman West\u201dprovides afit-\nting endto thevolume; this is the periodin which, as Cilliers points out,\nthe majorityof Latin medical texts were produced. Cilliers describes how\nGreek scientific and medical texts were beingtranslated into Latin fora\nRoman West thatwasin thefourth to seventh centuries\u2014and onwards\u2014\nincreasingly Latin-speakingrather than bilingual. The philosophicaland\ntheoreticalaspects of translatedtexts were excised, leaving onlypractical\ninstruction. The chapter would have benefited from a longer discussion of",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 13,
+    "chunk_id": "b4b061260559bcea"
+  },
+  {
+    "text": "instruction. The chapter would have benefited from a longer discussion of\nAlexander of Tralleis, who, as Cilliers acknowledges, is termed by modern\ndoctors \u201cthe third Hippocrates\u201d .\nAs these summariesindicate, in this volumethere is a wealth of information\nand analysis, far in excess of whatone mightexpect from a handbook or\nintroduction. However, in severalchapters, especially those by Rochberg,\nZhmud, and Hagel, theinformation has been presented so densely thata\nreaderunfamiliarwiththetopic would needto do some backgroundreading\nin order to understand it fully. Other chapters (most notably that by Rihll)\nare accessible to the non-specialist.\nThere is aninconsistency in referencesto Pythagoras\u2019 theorem: it is thus\nnamedin Volkov\u2019s andGregory\u2019s chapters, but in Lindegaard Knudsen\u2019s",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 13,
+    "chunk_id": "c5ebc9691f1b1b77"
+  },
+  {
+    "text": "namedin Volkov\u2019s andGregory\u2019s chapters, but in Lindegaard Knudsen\u2019s\nit is the\u201cPythagoreantheorem\u201d . The differenceis important: thetheorem\nwas notPythagoras\u2019 , thoughitwas perhaps proven by him. \u201cPythagorean\ntheorem\u201d more elegantly reflects that factand mighthave been adopted\nthroughthevolume. Another inconsistency is thatMaria, the alchemical\nauthority discussed in Fraser, has become Mary the Jewess in Viano.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 13,
+    "chunk_id": "7ba8c23606bdfccb"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 261\nIn 49 chapters, there are, inevitably,overlapsin subjectmatter (forexample,\nbetween Zhmud\u2019s andGregory\u2019s discussions of Pythagoras). Whenthose\nare treated with differentapproaches, appropriate crossreferences would\nbenefit thereader.Some chapters do contain crossreferences, mostnotably\nthose ofGordon, Cooper,and especiallyBernard, who seemsto have read\nother chapters carefully and taken pains to engage with them. The paucity\nof crossreferencesin some chapters is nota source of criticism, rathera\nmissed opportunity. Johnston\u2019s treatmentof the medicalsects does not re-\nfer to similar treatments in Stok and Caldwell, and Grant and Caldwell do\nnot refer to each other\u2019s contributions, despite the overlap in theirmater-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 14,
+    "chunk_id": "10c6458efc0fd6f6"
+  },
+  {
+    "text": "not refer to each other\u2019s contributions, despite the overlap in theirmater-\nial.Scarborough, in his chapteron Scribonius, discusses Philodemus and\nEpicureanism atHerculaneum, butdoes not referenceGordon\u2019s chapter.\nGiventhatScarboroughis one of thevolume\u2019s editors, itseemslikely that\ncontributors were not encouraged to reference others\u2019 essays.\nDivision of the Greek and Roman material into four parts (earlyGreek,\nHellenistic, Greco-Roman, andlate antique and earlyByzantine) broadly\nreflects intellectual developments, along with developments in politics and\nculture. As Keyser notes in his Introduction, PartC, \u201c Hellenistic Greek\nScience\u201d ,covers \u201cthelong Hellenistic era generally\u201d ,and PartD, \u201cGreco-\nRoman Science\u201d , is \u201csomewhatoverlapping\u201d [5]. As a result,chapters in",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 14,
+    "chunk_id": "fb5e15e262c1dcef"
+  },
+  {
+    "text": "Roman Science\u201d , is \u201csomewhatoverlapping\u201d [5]. As a result,chapters in\nthe same part of the volume might not have the same temporal bounds, an\ninconsistency that was disconcerting to this reader. For example, in Part C,\nwhile Althoff and Tieleman focus on the fourth and third centuriesbc, the\nchapter that follows by Acerbi ranges aslate asthefirstcenturyad. The\ntitle ofScarborough\u2019s chapteron Dioscorides, \u201cPharmacology in the Early\nRoman Empire\u201d ,was a confusing choicefora chapter includedin PartC.\nSimilarly, Bliquez\u2019s \u201cGreco-Roman Surgical Instruments: The Tools of the\nTrade\u201d surveys instruments that date to the late Republic/early Empire, yet\nbecause, as Bliquez notes, they were used by Greek doctors, the chapterwas",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 14,
+    "chunk_id": "80959e28ecf194d2"
+  },
+  {
+    "text": "because, as Bliquez notes, they were used by Greek doctors, the chapterwas\nincludedin PartC. In PartD, Thibodeau has an end pointof thefirstcentury\nad, butGordon and Caldwell, in the chapters that follow, span asfarasthe\nthird century.Finally, in PartE, the distinction betweenlate antique and\nearlyByzantine is hard to determine: forexample, Kuelzer\u2019s \u201cByzantine\nGeography\u201d referencestexts dating as earlyasthe second centuryad and\nwrittenin Latin, butalsoranges aslate asthe11t h. While some contributors\n(such as Bowen, Viano, and Cilliers) do an excellent job ofstating clearly\ntheir beginning and end dates, others (including Rochberg) are less clear.\nA handbook on science and medicine will,quite reasonably,offeronlybrief",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 14,
+    "chunk_id": "9fb231dcef7685a4"
+  },
+  {
+    "text": "A handbook on science and medicine will,quite reasonably,offeronlybrief\nhistoricalnarrative orsupporting detail,butsometimes supporting evidence",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 14,
+    "chunk_id": "27cf001c3d3d9c7f"
+  },
+  {
+    "text": "262 Serena Connolly\nor references were neededfor them. Forexample, Cooperpresents asser-\ntions about the emperors\u2019 use of astrology and astrologers without textual\nreferencesthatwould have helpedthereaderevaluate those claims. Cilliers,\nin an otherwise excellentchapter, refers to\u201cthe deposition of thelastRoman\nemperor in the West in 476\u201d [1013], t hough, as some scholars are keento\npointout, Julius Nepos clungto his imperial title until 480.Hercharacter-\nization of thefourth to the seventh centuries as\u201cthetwilight years of the\nwestern Roman Empire, passing over into theDark Ages\u201d [1030] catches\nthe reader\u2019s attention, but feels dated.\nReaders ofhandbooks are oftenlookingforgood bibliographies, andthis vol-\nume does an excellent job ofprovidingjudiciouslists ofeditions(and, where",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 15,
+    "chunk_id": "0c13d9d625e272e3"
+  },
+  {
+    "text": "ume does an excellent job ofprovidingjudiciouslists ofeditions(and, where\nnecessary, translations) and of seminalandrecentscholarship. The bibli-\nographies of Panagua and Webster are even divided helpfully into sections\n(thoughthelatterdoes notkey his in-text referencesto those sections), and\nVolkov offers twolists ofpublications, in \u201coriental languages\u201d and\u201cwestern\nlanguages\u201d .Acerbi\u2019s \u201cOnomasticon\u201d is a boonto thereader, though arefer-\nence to it early in the chapter would have made it more useful. In addition,\nthe contributors do an admirable job discussingimportant individualworks\nof scholarship.\nEditors ofhandbooks are faced withthe difficultchoice between, onthe one\nhand, sacrificing spacefor the sake ofclarity in presenting complex material",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 15,
+    "chunk_id": "b70081c8f9948a82"
+  },
+  {
+    "text": "hand, sacrificing spacefor the sake ofclarity in presenting complex material\nand, onthe other,keeping discussions shortandrelying onreferencesto\nrelevant detailed discussions elsewhere. The editors and their contributors\nhave achieved an effective balance, largely throughjudicious selection ofex-\nemplary material. The volume would have benefited from a full discussion\n(perhaps nota chapter)somewhere of atomism as treated by Leucippus,\nDemocritus, and others.Also desirable would have been a rigorous discus-\nsion ofwhere scholars have stood and currentlystand ontherole and status\nof magic in ancient science and medicine, a topic that admittedly exercises\nnon-specialist classicists more than it might the volume\u2019s contributors.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 15,
+    "chunk_id": "ebe153258a7a342a"
+  },
+  {
+    "text": "non-specialist classicists more than it might the volume\u2019s contributors.\nTo the classicistwho must incorporate theminto teaching or research, an-\ncientscience and medicine can seemimpenetrable andintimidating, largely\nbecause the sources are unfamiliar and rarely available in the usual collec-\ntions. Keyserand Scarborough are therefore to be commendedfor thefact\nthat their contributors emphasize sources\u2014both textual and material\u2014\nthroughout the volume.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 15,
+    "chunk_id": "90862e1eec9bb20e"
+  },
+  {
+    "text": "Serena Connolly on The Oxford Handbook of Science and Medicine 263\nIn his introduction, Keyser tackles theissue of definitions of science. He\nacknowledgesthatwhatqualifies as science develops over time and, in view-\ning science as a broad church, hopesto encompass both ancientand modern\ndefinitions. This seems areasonable approach, especially fora handbook\nthatmustsomehow divideits material to suitancientconceptions, modern\nexpectations, and scholars\u2019 areas ofexpertise. There are some significant,\nperhaps unintended, consequencesfor thevolume. Forexample, Keyser\nhimself, in his chapteron alchemy, takes a modern scientific approachto\nthetopic by privilegingthe exoteric over the esoteric (and, in so doing, can\narguefor its successin modern scientificterms). By contrast,Fraseracknowl-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 16,
+    "chunk_id": "c49d2eab43559792"
+  },
+  {
+    "text": "arguefor its successin modern scientificterms). By contrast,Fraseracknowl-\nedgesthata modern distinction between what is science and what is not\nthreatens an anachronistic and misleading view of alchemy.\nTheinclusion ofboth Bowen\u2019s chapter,which doggedlysticks with ancient\nconceptions ofastrologia (in which astronomy and astrology are often en-\nmeshed), and Cooper\u2019s, whichfocuses on astrology,suggests that the editors\nhad either not sought to impose definitions and approaches or wanted con-\ntributionsthatwould reflectdifferentdefinitions and approaches. Some\ncontributors question definitionsin such a way that justifiestheirchoices.\nForexample, Beagon opens by wondering whether there is such athing\nas an ancientencyclopedia oreven encyclopedic writing; the chapter that",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 16,
+    "chunk_id": "5697b909915f223f"
+  },
+  {
+    "text": "as an ancientencyclopedia oreven encyclopedic writing; the chapter that\nfollows suggests she has established criteriathatsuggest there are. Beagon\u2019s\nanxietyovergeneric definitionsis modern, thoughthe parameters ofher\nchapter are then structured around the very definitions she questions.\nThe classicistnewto thefields ofancientscience and medicine willbenefit\nfrom the questioning of long-standing assumptions and over-simplifications\nin many of the chapters\u2014for example, that Greek science simply emerged\nfrom and continued NearEastern work. Thefollowing, from Zhmud\u2019s chap-\nteron mathematics, mightstand as a programmatic statementon howto\ndealwith transmission of ideas across space andthe problem of parallel\nevolution ofscientific ideas: \u201cRealorassumedisomorphism betweentwo",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 16,
+    "chunk_id": "827723e12a84505f"
+  },
+  {
+    "text": "evolution ofscientific ideas: \u201cRealorassumedisomorphism betweentwo\nmathematical theories, formulas, ormethods often givesriseto common-\norigin hypotheses, butonly thetheories placedin a specific historicalsetting\nwith identifiable ways of transmission survive the tests\u201d [184].Another as-\nsumption\u2014that the canons ofauthors and authorities passed downto us\nare historical\u2014is also widely tackled. Forexample, Scarboroughreminds\nusthatDioscorides enjoys a higher reputationthan does ScriboniusLargus\nthanksto Galen; andGalen himselfdominates discussions ofRoman-era\nmedicine simply because he wrote so much (and so much survives).",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 16,
+    "chunk_id": "d71792f794f12644"
+  },
+  {
+    "text": "264 Serena Connolly\nThere are afewtypographicalerrors: p. 89, \u201c patters\u201d for \u201cpatterns\u201d; p. 120,\n\u201c(Needham and Wang 1959)\u201d for \u201cNeedham and Wang (1959)\u201d; p. 152,test-\nmonia fortestimonia; p. 391, \u201ct hough\u201d for \u201cthrough\u201d; p. 466, \u201cXenophon\u2019\u201d\nfor \u201cXenophon\u2019s\u201d; p. 615, \u201cL a\u00ebrtius, Majorscholars\u201d for \u201cLa\u00ebrtius. Major\nscholars\u201d . There are some proofing errors too: p. 322, \u201cAethiopia Ethiopia\u201d;\np. 486, \u201c have attempted harmonize\u201d; p. 629, \u201c Furley1999\u201d; p. 682, \u201c Crafts-\nmancraftsman\u201d; p. 822: \u201c Ptolemy\u2019s regarded his theories\u201d; p. 937 \u201c( see\u201d . (a\nreference has dropped out); p. 945, \u201csoma\u201d should be italicized; p. 951, \u201che\nwould also commented\u201d . Clagett 2000 (cited on p. 54) and Sch\u00fcrmann 1991\n(cited on p. 340) are not includedin therelevantbibliographies. But these er-",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 17,
+    "chunk_id": "88dd57a4043c9086"
+  },
+  {
+    "text": "(cited on p. 340) are not includedin therelevantbibliographies. But these er-\nrors are fewin a book ofover 1,000 pages, andthe overallproduction quality\nis high. The editors are to be commendedthatallGreektextpresentedin the\nvolume has been transliterated, and all Greek and Latin text is translated.\nThere is a wealth of informationin this volume, much more thanI antici-\npated. Itcomes ataliteralcost: thelistpricefor thevolume is $175, whichis\nsteep for a graduate student or the classicist looking for an introduction to\nscience and medicine (though far less than Irby-Massie\u2019sCompanion). But\nshould they takethe plunge: this is afascinating and absorbingvolume that\nwillexposethemto aspects of the ancientworld still toolittle considered by\nmany in the field.\nbibliography",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 17,
+    "chunk_id": "df0ccab01ed4861d"
+  },
+  {
+    "text": "willexposethemto aspects of the ancientworld still toolittle considered by\nmany in the field.\nbibliography\nIrby,G. L. 2016. A Companion to Science, Technology, and Medicine in\nAncient Greece and Rome. 2 vols. Chichester, UK/Hoboken, NJ.\nIrby-Massie, G. L. and P. T. Keyser. 2002. edd.Greek Science of the Hellenis-\ntic Era: A Sourcebook. London, UK/New York.\nKeyser,P. T. andG. L. Irby-Massie. 2008. edd. Encyclopedia of Ancient\nNatural Scientists. Abingdon, UK/New York.\nOleson, J. P. 2009. ed.The Oxford Handbook of Engineering and Technology\nin the Classical World. Oxford, UK/New York.",
+    "source_document": "The+Oxford+Handbook+of+Science+and+Medicine+in+the+Classical+World-+Connolly.pdf",
+    "page_number": 17,
+    "chunk_id": "c304438a02cd092c"
+  }
+]

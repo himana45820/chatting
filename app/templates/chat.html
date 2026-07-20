@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat With PDF</title>
+    <style>
+      body { margin: 0; font-family: Arial, sans-serif; background: #f5f7fb; color: #111827; }
+      .container { display: flex; height: 100vh; }
+      .chat-pane { flex: 1.2; padding: 20px; display: flex; flex-direction: column; }
+      .inspector { flex: 0.8; background: #111827; color: white; padding: 20px; overflow-y: auto; }
+      .messages { flex: 1; overflow-y: auto; margin-bottom: 12px; padding: 12px; background: white; border-radius: 12px; }
+      .message { margin-bottom: 12px; padding: 10px 12px; border-radius: 10px; max-width: 85%; }
+      .user { background: #dbeafe; margin-left: auto; }
+      .assistant { background: #ecfdf5; }
+      .composer { display: flex; gap: 8px; }
+      .composer input { flex: 1; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+      .composer button, .upload-btn { background: #2563eb; color: white; border: none; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+      .upload-btn { padding: 10px; }
+      .chunk-card { background: #1f2937; border: 1px solid #374151; border-radius: 10px; padding: 10px; margin-bottom: 10px; }
+      .chunk-meta { font-size: 12px; color: #9ca3af; margin-bottom: 6px; }
+      .chunk-text { font-size: 13px; color: #f9fafb; }
+      h3 { margin-top: 0; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="chat-pane">
+        <h2>Chat With PDF</h2>
+        <div class="messages" id="messages"></div>
+        <div class="composer">
+          <input id="messageInput" placeholder="Ask about your uploaded PDF..." />
+          <button class="upload-btn" id="uploadBtn" title="Upload PDF">📎</button>
+          <button id="sendBtn">Send</button>
+        </div>
+        <input type="file" id="fileInput" accept="application/pdf" hidden />
+      </div>
+      <div class="inspector">
+        <h3>RAG Inspector</h3>
+        <div id="ragInspector">No chunks retrieved yet.</div>
+      </div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+  </body>
+</html>
